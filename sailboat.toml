@@ -1,0 +1,52 @@
+#            _  _  _                _   
+#  ___ __ _ (_)| || |__  ___  __ _ | |_ 
+# (_-</ _` || || || '_ \/ _ \/ _` ||  _|
+# /__/\__,_||_||_||_.__/\___/\__,_| \__|
+                                      
+# Basic Setup:
+name = "Pushing_Outshoot_Unfold"
+short_name = "pushing_outshoot_unfold"
+email = ""
+author = "Cole W, Harshini V.S, Cassidy P."
+short_description = "A game about a teen getting through covid."
+description = ""
+url = "https://github.com/po-unfold"
+keywords = ""
+license = "none"
+
+
+# Resource Setup:
+[resources]
+icns = ""
+data_files = []
+modules = []
+file = "main.py"
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.homebrew]
+
+[build.pyinstaller]
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.pushing_outshoot_unfold.game"
+
+[build.pypi.commands]
+pou = "__main__.main"
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+
+
+# Other:
+
+
+
+# Thank you for using Sailboat!
