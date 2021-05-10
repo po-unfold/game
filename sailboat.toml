@@ -13,14 +13,16 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
+latest_build = "0.0.1+b081a16.1"
 
 
 # Resource Setup:
 [resources]
 icns = ""
 data_files = []
-modules = []
+modules = [ "blessed",]
 file = "main.py"
+no_import = [ "toml # This reads the data files", "glob", "os # Operating system libraries",]
 
 
 # Plugin Commands:
@@ -30,11 +32,14 @@ file = "main.py"
 [build.homebrew]
 
 [build.pyinstaller]
+_run = false
 type = 1
 mac = true
 windows = true
 unix = true
 bundle_id = "com.pushing_outshoot_unfold.game"
+
+[build.actions]
 
 [build.pypi.commands]
 pou = "__main__.main"
