@@ -7,8 +7,8 @@
 name = "Pushing_Outshoot_Unfold"
 short_name = "pushing_outshoot_unfold"
 email = ""
-author = "Cole W, Harshini V.S, Cassidy P."
-short_description = "A game about a teen getting through covid."
+author = "Cole, Harshini, Cassidy"
+short_description = "A game about a teen getting through quarantine in Covid."
 description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
@@ -46,7 +46,8 @@ pou = "__main__.main"
 
 
 # Other:
-
+[git]
+github = "po-unfold/game"
 
 
 # Thank you for using Sailboat!
