@@ -13,7 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.0.1+b081a16.1"
+latest_build = "0.0.2-rc1"
+release-notes = "First Release, testing..."
+latest_release = "0.0.1"
 
 
 # Resource Setup:
@@ -53,6 +55,7 @@ pou = "__main__.main"
 # Other:
 [git]
 github = "po-unfold/game"
+brew = "po-unfold/homebrew-taps"
 
 
 # Thank you for using Sailboat!
