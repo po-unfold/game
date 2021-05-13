@@ -6,7 +6,7 @@
 # Basic Setup:
 name = "Pushing_Outshoot_Unfold"
 short_name = "pushing_outshoot_unfold"
-email = ""
+email = "po-unfold@colewilson.xyz" # This can change if anyone else wants their email
 author = "Cole, Harshini, Cassidy"
 short_description = "A game about a teen getting through quarantine in Covid."
 description = ""
@@ -14,17 +14,17 @@ url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
 latest_build = "0.0.2-rc1"
-release-notes = "First Release, testing..."
-latest_release = "0.0.1"
+release-notes = "Prerelease Test"
+latest_release = "0.0.2-rc1"
 
 
 # Resource Setup:
 [resources]
 icns = ""
 data_files = []
-modules = [ "blessed",]
+modules = [ "blessed", "toml"]
 file = "main.py"
-no_import = [ "toml # This reads the data files", "glob", "os # Operating system libraries",]
+no_import = [ "glob", "os",]
 
 
 # Plugin Commands:
