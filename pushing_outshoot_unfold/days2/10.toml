@@ -2,8 +2,8 @@ year  = 2020
 month = 8
 day = 17
 
-story = """
-NEWS NOTIFICATION: Fires in California. 
+
+story = """ 
 (Randomized) Introvert: having a hard time reaching out to friends
 You’ve not been feeling yourself lately. It feels like you’re alone and isolated. You also haven’t had any social interaction outside of your family in a while. You’ve developed cabin fever. You need some way to vent out your emotions, but you don’t know how. You decide to search online about strategies you can use. One thing that caught your eye was journaling. You decide to give it a try. (NEED HELP WITH THIS PART)
 
@@ -29,4 +29,9 @@ Y: Are you excited to be a freshman in high school?
 F: Super excited, but it’s not going to be the same experience as being in person.
 Y: Yeah, we have to miss out on Homecoming. I was really looking forward to it.
 F: It’s also our first year of high school, so it's kinda upsetting that we can’t have the full experience. Classes are going to be so different. 
+
+[[notification]]
+title = "Text Notification"
+text = "Fires in California."
+date = "Auguest 17th ,2020"
 """

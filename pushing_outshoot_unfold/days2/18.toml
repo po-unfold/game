@@ -1,0 +1,22 @@
+year = 2021
+month = 1
+date = 13#-20 (comes before jan news)
+
+story = """
+January 20th, 2021: 
+ 
+2021 hadn’t started as good as you had expected too. There were many overwhelming events that happened. It was hard to comprehend everything that was happening. You felt all emotions during this month. 
+ 
+On top of that, your class schedule has changed due to school learning regulations. This new schedule is kind of wonky, and you’re having a hard time getting used to it. Also, you have a lot of homework, and you’re worried that you won’t get it done in time.
+(Interactive part)"""
+
+[[notification]]
+title = "News Notification"
+text = "Jan. 13th. The US House of Representatives officially impeached President Donald Trump for “incitement of insurrection.” Votings were 232-197. This is the first time in history a US President is impeached twice."
+date = "January 13th, 2021"
+
+[[notification]]
+title = "News Notification"
+text = "The inauguration of the 46th President of the U.S, Joe Biden and  49th Vice President, Kamala Harris happened."
+date = "January 20th, 2021"
+

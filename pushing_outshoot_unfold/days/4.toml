@@ -2,10 +2,16 @@ year = 2020
 month = 5
 date = 12
 
-
 story = """
 You are still having trouble keeping up with the amount of homework that your teachers are giving you and keeping track of them. Optional: you also have to keep up with your piano/guitar/violin/cello lessons. You also aren’t getting enough time outside of your room and haven’t been able to socialize with others much. 
 HOW WILL YOU SOLVE THIS PROBLEM?: Create a handwritten planner or create a To-do list on your phone."""
 
 #(after the person gets all their homework assigned or tasks assigned the things they can click a next button and the tasks will appear on their planner/to-do list. As they finish each task, that task will be taken off the list.)
 #"""
+
+[[notification]]
+title = "Text Notification"
+text = "Ventilators and testing kit shortage in hospitals."
+date = "May 12th ,2020"
+
+

@@ -1,0 +1,20 @@
+year = 2021
+month = 2
+date = 29# (comes after feb news string)
+
+story = """
+February 29th, 2021: 
+It was really exciting for you to hear about the Mars rover and orbit missions that had happened this month. It is great news for you and many others that your region is now in Phase 2 of Covid reopening. You are now able to order food for more small businesses, as they are starting to open back up. Today, your mom was going to go out and pick up some croissants from a local bakery.
+
+However, it was very shocking to hear about the winter storm in Texas. Most houses in Texas aren’t made to deal with the cold and snow like weather. So, the winter storm had taken a big toll on the state.
+
+Lately, you’ve been starting to exercise more and are considering joining some school sports when schools open back up! Maybe you should join the soccer team, or volleyball, or tennis! The thought of going back to school really brightened up your day.
+But, you still need to do homework.Today you have to do math, science, and english, and some P.E.
+(Interactive Part)
+You are finally done with your homework! 
+F: Hey have you heard about the new schedule?!?!?
+Y: Wait, there's a new schedule??Another schedule?
+F: Yeah, they are planning for people to be able to go back to school soon!
+Y: That’s awesome, but how is the schedule even going to work?
+F I have no idea, but I heard we would have to have classes in person and in the afternoon.
+Y: Thats. . . interesting"""

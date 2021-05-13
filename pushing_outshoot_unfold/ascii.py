@@ -3,9 +3,11 @@
 # KEEP THAT! ^^^^^
 
 from textwrap import wrap
+from pushing_outshoot_unfold import Term
 from blessed import Terminal
 
 term = Terminal()
+# term = Term()
 
 
 
@@ -21,7 +23,7 @@ def notification(title="",text="This message has no content",appname="TheLocal",
 	print('║' + (" " * width) + '║')
 
 	spacer = " " * (width - len(title))
-	title = term.bold(title)
+	title = term.underline(title)
 	print('║' + title + spacer + '║')
 
 	text = wrap(text, width)

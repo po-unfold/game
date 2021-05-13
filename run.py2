@@ -1,9 +1,8 @@
 import os
-
+# Run the file
 try:
-	from pushing_outshoot_unfold.__main__ import main
+	import pushing_outshoot_unfold.__main__
 except ModuleNotFoundError:
 	os.system('python3 setup.py develop')
-	from pushing_outshoot_unfold.__main__ import main
-
-main()
+	import pushing_outshoot_unfold.__main__
+pushing_outshoot_unfold.__main__.main()

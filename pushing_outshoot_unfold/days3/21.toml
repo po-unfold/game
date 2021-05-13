@@ -1,0 +1,24 @@
+year = 2021
+month = 3
+date = 25
+
+story = """
+3 more months till school is over!!! The weather is FINALLY starting to get a bit better. :) But, nevertheless, school has kept throwing challenges at you. >:( Your current challenge is navigating through the new schedule. There have been announcements via email about starting a hybrid plan, where 2 groups of students (groups A and B) would go to school while group C would remain at home. Due to the events in the news, you have decided to continue your remote learning journey with your fellow group C members. Even though there has been an order to get vaccinations out, they aren’t approved for minors. 
+ 
+You look at the new schedule and see the new timings. School now starts at 7:45! Which means that you’ll have to wake up early. :( But since school starts early, classes finish by afternoon, so you have extra time for homework!
+ 
+Interactive portion: 
+Classes just finished! Whew! That was super confusing. You get started on homework. Since you have a lot of math homework, you decide to do that first. 
+Math problems: Finish as much as you can in 10 secs! (They get progressively harder… >:) 
+1. 1+1 = ?
+2. 8+9 = ?
+3. 10 + 11 = ?
+4. 23 + 28 = ?
+5. 100 + 11 = ?
+6. 110 + 23 = ?
+ 
+(If user doesn’t fill out all the problems): Nice try! Time to move on! You breathe a sigh of relief and decide to wind down for the day. 
+ 
+ 
+(If user finishes all the problems): Wow, you’re speedy fast! You breathe a sigh of relief and decide to wind down for the day. 
+"""

@@ -2,9 +2,8 @@ year = 2020
 month = 5
 date = 30
 
-story = """
-NEWS NOTIFICATION: Hospitals are running out of space and hospital beds and are now using non-hospital buildings, like stadiums, to house patients. 
 
+story = """
 You’ve been starting to feel sluggish and a bit moody lately, because you haven’t been moving around much. You contemplate whether to do something about it, but you push it off for later. 
 You and your parents have been worrying about your grandparents lately. Your aunt, cousins, and grandparents live in the same house. That is why your aunt and cousins can’t leave, due to the risk of exposing the virus to your grandparents. Right then, you feel a wave of sadness pass through your body. You realized that you haven’t been able to see your cousins in 3 months and you miss spending time with them. Because they are younger than you, you guys often bicker, but it was all fun in games most of the time. 
 
@@ -14,3 +13,8 @@ WHAT MEALS WILL YOU GIVE THEM? (user meals input)
 
 Later that day, your parents drive you to your grandparents’ house. Wearing gloves, you carry the box with the supplies and meals and place it in front of the front door. You ring the doorbell and run back to the front driveway, a safe distance away. Your aunt opens the door and waves at you, your cousins behind her, your grandparents watching from the window. You smile (the smile being hidden by the mask you’re wearing) and say hi to everyone, happy to see them again. On the way home, your aunt calls your parents and thanks them for the (insert user meals input).
 """
+
+[[notification]]
+title = "Text Notification"
+text = "Hospitals are running out of space and hospital beds and are now using non-hospital buildings, like stadiums, to house patients. ."
+date = "May 30th ,2020"
