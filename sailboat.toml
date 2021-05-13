@@ -13,7 +13,7 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.0.5"
+latest_build = "0.0.6"
 release-notes = "fix: Unicode UTF-8 bug with encoding."
 latest_release = "0.0.4"
 
@@ -21,7 +21,7 @@ latest_release = "0.0.4"
 # Resource Setup:
 [resources]
 icns = ""
-data_files = []
+data_files = [ "days/*.toml", "days2/*.toml", "days3/*.toml",]
 modules = [ "blessed", "toml",]
 file = "main.py"
 no_import = [ "glob", "os", "pushing_outfold_unfold", "", "textwrap",]

@@ -26,7 +26,7 @@ except FileNotFoundError:
 
 options = {
 	"name": "pushing_outshoot_unfold",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"scripts": [],
 	"entry_points": {'console_scripts': ['pou=pushing_outshoot_unfold.__main__:main']},
 	"author": "Cole, Harshini, Cassidy",
@@ -39,7 +39,7 @@ options = {
 	"install_requires": ['blessed', 'toml'],
 	"classifiers": ["Programming Language :: Python :: 3"],
 	"python_requires": '>=3.6',
-	"package_data": {"": [], },
+	"package_data": {"": ['days/*.toml', 'days2/*.toml', 'days3/*.toml'], },
 	"license": "none",
 	"keywords": '',
 	"setup_requires": ['wheel'],
