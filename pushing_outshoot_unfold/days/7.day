@@ -1,0 +1,20 @@
+year = 2020
+month = 6
+date = 9
+
+story = """
+This year of school is almost over. Only two more weeks to go. You’ve gotten used to remote learning and have gotten better at managing your time. You appreciate how you are able to learn from the comfort of your own home. However, you still remember how all your 8th grade activities were cancelled, including your family’s vacation to DisneyLand. You were really looking forward to the 8th grade graduation ceremony, since it would be your last year in middle school.
+
+Zoom meetings have been fine for you. Some of your teachers stopped doing zoom meetings and just give lessons to do by yourself. It’s definitely not the same experience as being in regular school. 
+
+And instead of being stuck in your house all day doing homework, you occasionally go outside to your backyard for some fresh air. After finishing your homework, you decide to spend time with your little sister. 
+(Interactive part: user does homework and plays with little sister. )
+Playing with little sister:
+You close your eyes and count to 20 while your little sister hides. Once you get to 20 you yell out “ready or not, here I come!”
+Where do you look first: behind the bush (wrong answer), next to the steps of your porch (wrong answer), right side of the garden (correct).
+Round 2: left side of the garden (wrong), behind the bush (right), behind the chicken coop (wrong).
+
+Round 3: next to the stepf of your porch (wrong), behind the chicken coop (right), behind the bush (wrong),
+
+This was really fun for you. You realize that you should play more with your sister. This has made you really happy. You found a way to cope with the stress you’ve had with school.
+"""

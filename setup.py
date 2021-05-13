@@ -21,22 +21,22 @@ except FileNotFoundError:
 	### Contributors
 	- Cole, Harshini, Cassidy
 	### Contact
-	<>
+	<po-unfold@colewilson.xyz>
 	"""
 
 options = {
 	"name": "pushing_outshoot_unfold",
-	"version": "0.0.2-rc1",
+	"version": "0.0.3",
 	"scripts": [],
 	"entry_points": {'console_scripts': ['pou=pushing_outshoot_unfold.__main__:main']},
 	"author": "Cole, Harshini, Cassidy",
-	"author_email": "",
+	"author_email": "po-unfold@colewilson.xyz",
 	"description": "A game about a teen getting through quarantine in Covid.",
 	"long_description": long_description,
 	"long_description_content_type": "text/markdown",
 	"url": "https://github.com/po-unfold",
 	"packages": setuptools.find_packages(),
-	"install_requires": ['blessed'],
+	"install_requires": ['blessed', 'toml'],
 	"classifiers": ["Programming Language :: Python :: 3"],
 	"python_requires": '>=3.6',
 	"package_data": {"": [], },

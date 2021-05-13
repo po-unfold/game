@@ -1,0 +1,24 @@
+year = 2020
+month = 5
+date = 25
+
+story = """
+You hear on the news today that an African American man named George Floyd had passed away due to police violence. There were other violent acts against African Americans before this event, however. You hear about protests and riots about the event that happened. It makes you feel uncomfortable and you feel sad about what happened. But, you did see the posts about this event that your friends had put on their social media. 
+
+Algebra: The homework was pretty easy, and you feel accomplished with yourself. You feel like you’re getting better at managing your time wisely. 
+Cook Dinner: While chopping veggies, 
+Take a walk with/without the dog: It was nice to get some fresh air for once, and the weather was nice and sunny. It was uncomfortable to wear the mask though.
+Text a friend-
+You: Hey, what have you been up to????
+F: Just watching a lot of Netflix and Hulu
+Y: (two options) “awesome” or “ I mean who hasn’t, right? 
+	If the user picked awesome, conversation ends there. “You regret ending the conversation there, but you can’t come up with anything to say. Maybe next time, you think to yourself.
+	If the user picked option 2, continue. 
+	F: other than that, it's kinda overwhelming with all the homework we have.
+	Y: ‘yeah, I felt that way too. You should totally try to make a planner. It helped me a lot. 
+	F: Good idea, I should probably start doing that so I don’t fail my classes.
+	F: I also have to take care of my baby sister so it’s hard sometimes to finish my homework. 
+	Y: (user can input an answer)
+	F: That’s a great idea, thanks!
+	Y: Np!
+That was your first socialization with others outside your house in a while, and you get a ping of happiness. A smile starts to form on your face. You realize that connecting with others can help you with your struggles. """

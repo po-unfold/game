@@ -1,0 +1,24 @@
+year = 2020
+month = 10
+date = 31
+
+
+
+story = """
+Today is Halloween, and it was stated that people should stay home for the holiday for the safety of others. Huh, another holiday was cancelled. You feel really disappointed, but you decide to try to make the best of things during this pandemic. 
+
+Your idea is to create a costume from materials you have at your house. You decide to make this a competition to see who makes the best costume among your friends. 
+What did you dress up as for halloween? (user insert answer)
+At 8:00 p.m you join a Facetime meeting with your friends and show off your (insert user answer) costume. One of your friends dressed up as Hermione Granger from the Harry Potter series. Your other friend dressed up as Jim from The Office, and another dressed up as a blessing in disguise. That friend had taped the word blessing on her shirt and put on a funny mask to disguise their face. Who do you think won? (insert answer)
+
+Your friends totally agree that (insert user answer) won.
+
+Later that night your family decides to do a fun family activity. You have two options: play monopoly or watch a halloween movie. (user picks which activity)
+
+Monopoly: It was really fun, but you got annoyed like 50% of the time, because you kept landing on really expensive properties.
+
+Halloween Movie: Which movie (your little sister is watching too)? : Hocus Pocus, The Nightmare Before Christmas, or Spooky Buddies. 
+
+Any movie: It was so fun. You were supposed to be eating halloween candy too, but the package that you mom ordered hadn’t arrived yet. The wait time for packages/mail has been so long because of the pandemic. However, your dad saved the day by making homemade caramel popcorn!
+"""
+

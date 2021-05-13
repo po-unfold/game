@@ -1,0 +1,15 @@
+year = 2020
+month = 4
+date = 21
+
+
+story = """
+It is Tuesday morning. 8:15 a.m. You had just joined in your first zoom meeting, and your teacher is going over the school announcements. Your teacher moves on from slide to slide. You go from talking about grades, to keeping up with homework, to sources to help people reach out to teachers. But then, something catches your eye. Right when your teacher clicks onto the last and final slide, you read the words “Schools have decided to keep remote learning for the rest of the year.”
+
+Your teacher reads it outloud. You sit there in disbelief. It’s not like you didn’t see it coming though, but you still had that small part in the back of your head hoping that you could go back to school. You missed seeing your friends and easily being able to ask your teacher questions if you were confused. Now you were going to miss graduating 8th grade and going on the 8th grade trip to Wild Waves. You start to feel upset, and from that point on, the idea of all the cancellations cloud your mind. 
+
+Today you have homework from 4 of your classes and you also have some homework to finish from yesterday. You need to get them done before 6:00 p.m when they are due. You have 2 homework assignments from science, 1 from english, and 1 from algebra. It is currently 4:00 p.m. You realized that you should have finished yesterday's homework when you first got it and you underestimated how easy remote learning was going to be. You decide to start immediately. 
+		(Interactive Part: the user tries to finish homework on time)
+1st Continued option: You are able to get 80% of your homework done. However, the second science homework is taking longer than you expected. It is now 5:55 p.m. You would need at least 30-40 more minutes to finish your homework, but you wouldn’t be able to turn it in on time. You just decide to turn in what you finished, really stressed and upset about now managing your time. 
+
+2nd Continued Option: After doing your 2 science homeworks first, you realize that you only have 30 minutes left to finish your algebra and english homework. You try to cram everything into the 30 minutes you have left and you turn everything in just in time, but your homework quality isn’t that great. """
