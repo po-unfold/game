@@ -1,4 +1,7 @@
 #!/bin/env python3
+# -*- coding: utf-8 -*-
+# KEEP THAT! ^^^^^
+
 
 """
 Hi there! You should go

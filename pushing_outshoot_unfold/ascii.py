@@ -1,3 +1,7 @@
+#!/bin/env python3
+# -*- coding: utf-8 -*-
+# KEEP THAT! ^^^^^
+
 from textwrap import wrap
 from blessed import Terminal
 
