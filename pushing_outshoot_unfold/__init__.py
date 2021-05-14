@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 # KEEP THAT! ^^^^^
 
-# This is for the website:
+from blessed import Terminal
+
 class Term:
 	def __getattribute__(self, name):
 		class _r:
@@ -11,3 +12,7 @@ class Term:
 			def __call__(self, i, *args, **kwargs):
 				return i
 		return _r()
+
+
+Term = Terminal
+# ^^ Uncomment that for regular ANSI ^^

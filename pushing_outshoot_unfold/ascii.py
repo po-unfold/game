@@ -4,10 +4,8 @@
 
 from textwrap import wrap
 from pushing_outshoot_unfold import Term
-from blessed import Terminal
 
-term = Terminal()
-# term = Term()
+term = Term()
 
 
 
@@ -32,14 +30,15 @@ def notification(title="",text="This message has no content",appname="TheLocal",
 	print('╚' + ("═" * width) + '╝')
 
 
-def calendar(events): #make events variable!
+def calendar(): #make events variable!
 	width = 40
 	length = 50
+	print("Calendar!")
 	print('╔' + ('═'	* width) + "╗" )
-	for event in events:
-		print(event)
+	print("March 16, 2020")
+	print("┃"+ "Events today!" + "┃")
 	print ('╚' + ('═'	* width) + '╝')
 
-# calendar(["Math test today!","Visit grandparents"])
+calendar()
 	
 	

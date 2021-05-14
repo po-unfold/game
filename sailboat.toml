@@ -13,18 +13,18 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.0.6"
-release-notes = "fix: Unicode UTF-8 bug with encoding."
-latest_release = "0.0.4"
+latest_build = "0.0.7"
+release-notes = "Fixed an issue where the data files don't show in the executables"
+latest_release = "0.0.6"
 
 
 # Resource Setup:
 [resources]
 icns = ""
-data_files = [ "days/*.toml", "days2/*.toml", "days3/*.toml",]
-modules = [ "blessed", "toml",]
+data_files = [ "sounds/*", "days/*.toml", "days2/*.toml", "days3/*.toml",]
+modules = [ "blessed", "toml", "logging",]
 file = "main.py"
-no_import = [ "glob", "os", "pushing_outfold_unfold", "", "textwrap",]
+no_import = [ "glob", "os", "pushing_outfold_unfold", "", "textwrap", "threading",]
 
 
 # Plugin Commands:

@@ -8,6 +8,9 @@ authors = ["Cole, Harshini, Cassidy"]
 python = "^3.8"
 toml = "^0.10.2"
 blessed = "^1.18.0"
+playsound = "^1.2.2"
+pydub = "^0.25.1"
+replit = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 
