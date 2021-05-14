@@ -26,7 +26,7 @@ except FileNotFoundError:
 
 options = {
 	"name": "pushing_outshoot_unfold",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"scripts": [],
 	"entry_points": {'console_scripts': ['pou=pushing_outshoot_unfold.__main__:main']},
 	"author": "Cole, Harshini, Cassidy",
@@ -36,7 +36,7 @@ options = {
 	"long_description_content_type": "text/markdown",
 	"url": "https://github.com/po-unfold",
 	"packages": setuptools.find_packages(),
-	"install_requires": ['blessed', 'toml', 'logging'],
+	"install_requires": ['blessed', 'toml'],
 	"classifiers": ["Programming Language :: Python :: 3"],
 	"python_requires": '>=3.6',
 	"package_data": {"": ['sounds/*', 'days/*.toml', 'days2/*.toml', 'days3/*.toml'], },

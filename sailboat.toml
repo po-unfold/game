@@ -13,18 +13,18 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.0.7"
-release-notes = "Fixed an issue where the data files don't show in the executables"
-latest_release = "0.0.6"
+latest_build = "0.0.8"
+release-notes = "Added sounds and other stuff like a banner"
+latest_release = "0.0.7"
 
 
 # Resource Setup:
 [resources]
 icns = ""
 data_files = [ "sounds/*", "days/*.toml", "days2/*.toml", "days3/*.toml",]
-modules = [ "blessed", "toml", "logging",]
+modules = [ "blessed", "toml",]
 file = "main.py"
-no_import = [ "glob", "os", "pushing_outfold_unfold", "", "textwrap", "threading",]
+no_import = [ "glob", "os", "logging", "pushing_outfold_unfold", "", "textwrap", "threading",]
 
 
 # Plugin Commands:
