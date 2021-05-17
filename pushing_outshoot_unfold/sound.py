@@ -1,6 +1,5 @@
 import os
 import sys
-import threading
 import logging
 
 l = logging.getLogger("pydub.converter")
@@ -19,8 +18,10 @@ def play(file):
 			file,
 			winsound.SND_LOOP | winsound.SND_ASYNC
 		)
+	elif sys.platform.startswith('dar'):
+		import subprocess
+		subprocess.call(["afplay", file])
 	else:
 		import simpleaudio as sa
 		wave_obj = sa.WaveObject.from_wave_file(file)
 		play_obj = wave_obj.play()
-		# play_obj.wait_done()

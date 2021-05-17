@@ -1,14 +1,31 @@
+# key = {
+# 	"What is the essential gas needed for us to breath?": "oxygen"
+# }
+
+# for i in range(10): # Ask 10 questions
+# 	q, a = random.choice(list(key.items())) # pick a random q/a pair
+# 	response = input(q).lower() # make it lowercase
+# 	if response == a.lower():
+# 		print('Correct!')
+# 	else:
+# 		print(f'Incorrect! The correct answer was {a}.')
+
+
 import random
+from pushing_outshoot_unfold import Term
+
+term = Term()
+
 user_start = input('Please type "start" to begin')
 
 if uesr_start == 'start':
-	question = random.randit(1,30)
+	question = random.randint(1,30)
 	if question == '1':
 		user_response = input(' What is the essential gas needed for us to breath?  ')
-			if user_response == 'oxygen' or 'Oxygen':
-				print('Correct!')
-			else:
-				print('Incorrect! correct answer is Oxygen')
+		if user_response == 'oxygen' or 'Oxygen':
+			print('Correct!')
+		else:
+			print('Incorrect! correct answer is Oxygen')
 	if question == '2':
 		user_response = input('What is the name of the planet closet to the Sun?  ')
 			if user_response == 'Mercury' or 'mercury':
