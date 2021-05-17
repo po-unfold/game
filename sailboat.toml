@@ -13,18 +13,19 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.0.8"
-release-notes = "Added sounds and other stuff like a banner"
-latest_release = "0.0.7"
+latest_build = "0.1.0"
+release-notes = "Added sound and banner!"
+latest_release = "0.0.8"
 
 
 # Resource Setup:
 [resources]
-icns = ""
+icns = "icon.icns"
+ico = "icon.ico"
 data_files = [ "sounds/*", "days/*.toml", "days2/*.toml", "days3/*.toml",]
-modules = [ "blessed", "toml",]
+modules = [ "blessed", "toml", "simpleaudio", "replit",]
 file = "main.py"
-no_import = [ "glob", "os", "logging", "pushing_outfold_unfold", "", "textwrap", "threading",]
+no_import = [ "glob", "os", "logging", "pushing_outfold_unfold", "", "textwrap", "threading", "random", "calendar as cal",]
 
 
 # Plugin Commands:

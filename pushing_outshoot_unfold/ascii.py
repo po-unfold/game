@@ -4,13 +4,23 @@
 
 from textwrap import wrap
 from pushing_outshoot_unfold import Term
+import calendar as cal
+
 
 term = Term()
 
-
+def progress(percentage):
+	start = "Quarantine: "
+	end = f" {str(round(percentage)).rjust(2)}% completed"
+	percentage = percentage / 100
+	progress_width = term.width - len(start) - len(end)
+	fill_amount = round(percentage * progress_width)
+	bar = ("█" * fill_amount)
+	bar = bar[:-1] + "█"
+	print(start + bar.ljust(progress_width, '_') + end)
 
 def notification(title="",text="This message has no content",appname="TheLocal",\
-								date="0s ago",emoji="📰"):
+								date="0s ago",emoji="X"):
 	appname = emoji + "  " + appname
 	width = 50 # Width of notification
 	print('╔' + ('═' * width) + '╗')
@@ -29,16 +39,11 @@ def notification(title="",text="This message has no content",appname="TheLocal",
 		print('║' + line.ljust(width) + '║')
 	print('╚' + ("═" * width) + '╝')
 
+progress(25)
+def calendar(month, year, replace = []):
+	text = cal.month(year, month)
+	for date in replace:
+		text = text.replace(f' {date} ', term.red(f' {date} ')) 
+	for line in text.split('\n'):
+		print(term.center(line))
 
-def calendar(): #make events variable!
-	width = 40
-	length = 50
-	print("Calendar!")
-	print('╔' + ('═'	* width) + "╗" )
-	print("March 16, 2020")
-	print("┃"+ "Events today!" + "┃")
-	print ('╚' + ('═'	* width) + '╝')
-
-calendar()
-	
-	
