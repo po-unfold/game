@@ -1,6 +1,7 @@
 import os
 import sys
 import logging
+from threading import Thread
 
 l = logging.getLogger("pydub.converter")
 l.setLevel(logging.DEBUG)
@@ -20,7 +21,10 @@ def play(file):
 		)
 	elif sys.platform.startswith('dar'):
 		import subprocess
-		subprocess.call(["afplay", file])
+		def _thread():
+			while True:
+				subprocess.call(["afplay", file])
+		Thread(target=_thread).start()
 	else:
 		import simpleaudio as sa
 		wave_obj = sa.WaveObject.from_wave_file(file)
