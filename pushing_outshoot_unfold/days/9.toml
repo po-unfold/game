@@ -1,11 +1,10 @@
 year = 2020
 month = 7
-day = 4
+date = 4
 
 story = """
 Today is the 4th of July. Usually, your parents would invite over family for a BBQ party. You notice that your parents were also sad about not being able to see family too. You would also look forward to watching fireworks with your friends, but most people canceled doing fireworks this year. Thinking about this makes you pretty sad, and you spend most of the day being gloomy. 
 
 That evening, your parents tell you that they planned some fun activities for you and your sister to do this July 4th. They said that they would try something new today. You and your parents would try to bake something for after dinner dessert. Happy that you wouldn’t spend your 4th of July gloomily, you instantly agree. 
+# day9()
 """
-
-#Now in the interactions.py folder, called day9()

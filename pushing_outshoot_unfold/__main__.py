@@ -11,7 +11,7 @@ from pushing_outshoot_unfold import ascii, banner, sound, Term, interactions
 
 # ===== Setup =====
 term = Term()
-clear_screen = lambda: None#os.system('cls' if sys.platform.startswith('win') else 'clear')
+clear_screen = lambda: os.system('cls' if sys.platform.startswith('win') else 'clear')
 PLAY_MUSIC = True # False or True
 
 # ===== Get Data =====
@@ -43,9 +43,9 @@ def setup():
 	return personality
 
 # ===== Main =====
-def main():
+def main(loop=-1):
 	clear_screen()
-	if PLAY_MUSIC:
+	if PLAY_MUSIC and loop < 1:
 		sound.play('music.wav')
 	banner.banner()
 	input()
@@ -90,13 +90,16 @@ def main():
 			
 
 		print()
-		input(term.center(term.red('\ntype enter to continue...')))
+		input(term.center(term.grey('\ntype enter to continue...')))
+		print('\a') # make a "beep" sound
 		# End day
 		day_number += 1#random.randint(1, 3)
 
 if __name__ == "__main__":
+	i = 0
 	try:
 		while True:
-			main()
+			main(loop=i)
+			i += 1
 	except KeyboardInterrupt:
 		pass
