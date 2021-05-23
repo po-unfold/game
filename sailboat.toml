@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.2.1"
-release-notes = "just testing..."
-latest_release = "0.2.0"
+latest_build = "0.2.2"
+release-notes = "debugging windows error..."
+latest_release = "0.2.1"
 
 
 # Resource Setup:
@@ -40,6 +40,7 @@ type = 1
 mac = true
 windows = true
 unix = true
+options = [ "--hidden-import", "jinxed.terminfo.vtwin10",]
 bundle_id = "com.pushing_outshoot_unfold.game"
 
 [build.actions]
