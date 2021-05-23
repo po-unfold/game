@@ -11,7 +11,7 @@ from pushing_outshoot_unfold import ascii, banner, sound, Term, interactions
 
 # ===== Setup =====
 term = Term()
-clear_screen = lambda: os.system('cls' if sys.platform.startswith('win') else 'clear')
+clear_screen = lambda: None#os.system('cls' if sys.platform.startswith('win') else 'clear')
 PLAY_MUSIC = True # False or True
 
 # ===== Get Data =====

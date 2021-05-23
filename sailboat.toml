@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.2.0"
-release-notes = "fix error where audio is blocking on MacOS"
-latest_release = "0.1.2"
+latest_build = "0.2.1"
+release-notes = "just testing..."
+latest_release = "0.2.0"
 
 
 # Resource Setup:
