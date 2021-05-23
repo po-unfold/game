@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.1.2"
-release-notes = "new: Icons, Music, Calendar, Math, Story, Notifications, lots more!!!"
-latest_release = "0.1.1"
+latest_build = "0.2.0"
+release-notes = "fix error where audio is blocking on MacOS"
+latest_release = "0.1.2"
 
 
 # Resource Setup:
@@ -25,7 +25,7 @@ ico = "icon.ico"
 data_files = [ "sounds/*", "days/*.toml", "days2/*.toml", "days3/*.toml",]
 modules = [ "blessed", "toml", "replit",]
 file = "main.py"
-no_import = [ "glob", "os", "logging", "simpleaudio", "pushing_outfold_unfold", "", "textwrap", "threading", "random", "calendar as cal",]
+no_import = [ "glob", "os", "logging", "simpleaudio", "pushing_outfold_unfold", "", "textwrap", "threading", "random", "calendar as cal", "re",]
 
 
 # Plugin Commands:

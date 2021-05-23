@@ -17,20 +17,7 @@ Your mom decided to stay home to prepare for dinner, while you and your dad went
 “Only get what we need. We can’t stay for too long,” your dad says grimly. He grabs two packs of toilet paper, one for your house and one to drop off at your grandparents’ house. 
 WHAT DO YOU GRAB? 
 
-user_supplies = input('Canned Food  or  Packs of Water')
-	if user_supplies == 'Canned Food':
-		canned_food = input(('Beans and Tuna or Veggies and Soup')
-			if canned_food == 'Beans and Tuna':
-				print('You decided to pick beans and tuna because that was what you thought you grandparents, aunt, and cousins would make more use for.')
-			elif canned_food == 'Veggies and Soup':
-				print( 'You decided to pick veggies and soup because you didn't see any other options')
-	if user_supplies == 'Packs of Water'
-		user_water = input('1 or 2 packs of water?')
-			if user_water == '1':
-				print('You decide to get only 1 pack, because you only want to get what will last for good amount of time.')
-			elif user_water == '2':
-				print('You decide to get 2 just in case another problem arises.')
-print('Good Job! Time to go checkout and head back home.')
+# day2()
 
 On the way home, you contemplate if the supplies that you bought were enough to last a few months. You stress about running out of toilet paper and water, but try to push it aside. You and your dad sit in silence, listening to the radio. “Covid cases are still rising all across the United States. More than 4,500 have tested positive, and 88 have died. In the world, more than 181,000 people have tested positive. Health professionals advise that people stay home….”
 """

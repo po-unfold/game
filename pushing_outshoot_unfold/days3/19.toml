@@ -5,10 +5,8 @@ date = 1
 story = """
 
 It was really sad to see what was going on in Perth, Australia. You see pictures of hurt animals. Animals that are deprived of water, animals that lost their homes, and animals who didn’t make it. People also had to evacuate their homes even during the covid lockdown. Some people have nowhere to go or stay, with hotels being closed and their families also quarantine. You decide you want to do something to help the situation. 
-What will you do? Donate money to an organization or post about this issue on social media to bring awareness
-Donate Money: You and your parents donate $300 dollars to help animals get refuge and help.
-Social Media Post: More than 100 people saw your post, and now they are posting about it too."""
-
+# day19()
+"""
 [[notification]]
 title = "News Notification"
 text = "Wooroloo Bushfire in Perth, Australia,causing people have to evacuate even though there is covid lockdown."

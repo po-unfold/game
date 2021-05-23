@@ -21,11 +21,8 @@ def play(file):
 		)
 	elif sys.platform.startswith('dar'):
 		import subprocess
-		def _thread():
-			while True:
-				subprocess.call(["afplay", file])
-		Thread(target=_thread).start()
+		subprocess.Popen(["afplay", file])
 	else:
 		import simpleaudio as sa
 		wave_obj = sa.WaveObject.from_wave_file(file)
-		play_obj = wave_obj.play()
+		wave_obj.play()

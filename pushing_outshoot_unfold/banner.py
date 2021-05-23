@@ -28,32 +28,10 @@ s = f"""
 {term.grey('"Remebering the Pandemic"')}
 
 {term.grey('made by: Cole Wilson, Cassidy Phan, and Harshini Saravanan')}
-
-{term.underline('press enter to start')}
+ 
 """
 
 def banner():
-	# "Pushing"
-	for line in (p).split('\n'):
-		if len(line) == 0: continue
-		print(term.cyan(
-			term.center(line)
-		))
-	
-	# "Outshoot"
-	for line in (o).split('\n'):
-		if len(line) == 0: continue
-		print(term.cyan(
-			term.center(line)
-		))
-	
-	# "Unfold"
-	for line in (u).split('\n'):
-		if len(line) == 0: continue
-		print(term.cyan(
-			term.center(line)
-		))
-	
 	# Random Dots
 	for i in range(100):
 		x = random.randint(0, term.width)
@@ -61,6 +39,33 @@ def banner():
 		with term.location(x, y):
 			sys.stdout.write('.')
 
+	# Top margin
+	margin = term.height - (len((p + o + u + s).split('\n')))
+	print("\n" * round(margin/2))
+
+	# "Pushing"
+	for line in (p).split('\n'):
+		if len(line) == 0: continue
+		print(term.cyan(
+			term.center(line).replace(' ', term.move_right)
+		))
+	
+	# "Outshoot"
+	for line in (o).split('\n'):
+		if len(line) == 0: continue
+		print(term.cyan(
+			term.center(line).replace(' ', term.move_right)
+		))
+	
+	# "Unfold"
+	for line in (u).split('\n'):
+		if len(line) == 0: continue
+		print(term.cyan(
+			term.center(line).replace(' ', term.move_right)
+		))
+
 	# "Other"
 	for line in s.split('\n'):
-		print(term.center(line))
+		print(term.center(line).replace(' ', term.move_right))
+
+	print(term.center(term.underline('press enter to start')))

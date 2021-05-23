@@ -3,16 +3,30 @@ month = 3
 date = 13
 
 story = """
-You hear the staticky sound of the school speakers turning on. Everyone sitting on the edge of their seat, waiting. Anticipating.
+You hear the staticky sound of the school speakers turning on.
+# pause()
 
-Immediately, the principal says:  “Due to the current conditions, we will unfortunately be resuming classes remotely...” 
+Everyone sitting on the edge of their seat, waiting... anticipating....
+# pause()
 
-These were the words said on March 13th of 2020, school year of 2020-2021. Times of foreshadowing twirl in your mind right then and there.  One by one, classmates had stopped showing up to school, any physical contact had been forbidden, and there was the intense sanitization of desks, tables, and chairs. 
+You hear the principal say:
 
-The sound of the announcements start to tune out. You felt like the world stopped right in its tracks. You realize that any school activities would be canceled. All sports, games, clubs, and field trips.
+		"Due to the current conditions,
+		we will unfortunately be 
+		resuming classes remotely."
+# pause()
 
+These were the words said on March 13th of 2020, school year of 2020-2021.
+Times of foreshadowing twirl in your mind right then and there.
+# pause()
+One by one, classmates had stopped showing up to school, 
+any physical contact had been forbidden,
+and there was the intense sanitization of desks, tables, and chairs. 
+# pause()
+You start to tune out the sound of the announcements, you feel like the world is stopping right in its tracks.
+You realize that any school activities would be canceled.
+All sports, games, clubs, and field trips.
+# pause()
 Learning from home? You had found that pretty exciting and assured yourself that this wouldn’t last very long.
 """
 
-[[notification]]
-title = "Test notification..."

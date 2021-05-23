@@ -2,17 +2,7 @@
 
 This is the source code for a game about a teen getting through Covid-19.
 
-It is a text based game, but we can add awesome ASCII graphics:
-```
-          (this is an owl)
-         /
-  , _ , /
- ( o o )
-/'` ' `'\
-|'''''''|
-|\\'''//|
-   """
-```
+It is a text based game, but we can add awesome ASCII graphics.
 
 If you edit anything, just add comments explaining it! But anything is fine to add.
 
