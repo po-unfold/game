@@ -39,7 +39,6 @@ def notification(title="",text="This message has no content",appname="TheLocal",
 		print('║' + line.ljust(width) + '║')
 	print('╚' + ("═" * width) + '╝')
 
-progress(25)
 def calendar(month, year, replace = []):
 	text = cal.month(year, month)
 	lines = text.split('\n')

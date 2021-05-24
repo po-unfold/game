@@ -1,7 +1,15 @@
 year = 2020
 month = 9
 date = 3 
+goto = 12
 
 
 story = """
-Prepare yourself for school! You picked up your new chromebook and supplies today. You also prepare your desk for classes and hang up your new class schedule. You feel nervous and excited at the same time. """
+# green()
+Prepare yourself for school! 
+# pause()
+You picked up your new chromebook and supplies today. 
+
+You also prepare your desk for classes and hang up your new class schedule. You feel nervous and excited at the same time. 
+# normal()
+"""

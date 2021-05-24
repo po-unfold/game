@@ -1,14 +1,18 @@
 year = 2020
 month = 12
 date = 1
+goto = 16
 
 story = """
-Ahhhhh, the first final exams are coming up this month! You spend most of your time studying today, but also taking care of your sister. 
-
-You’ve never had a finals before, so you’re pretty nervous for what's to come. You teachers assure you that finals will be slightly easier this year, since you can’t take the tests in person. Still, you’re just going to study so you’ll be prepared. 
-
+AHHHHHH, the first final exams are coming up this month! 
+# green()
+You spend most of your time studying today, but also taking care of your sister. 
+# pause()
+You’ve never had a finals before, so you’re pretty nervous for what's to come. 
+# pause()
 People in your zoom classes are turning on their cameras less and less. Breakout rooms are as awkward and uncomfortable as normal. Sometimes, when you try to get a conversation started, no one talks or answers, which makes things even more awkward. 
+# normal()
 Anyway, time to study! 
-
+# pause()
 # day15()
 """

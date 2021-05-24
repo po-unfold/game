@@ -1,23 +1,52 @@
 year = 2020
 month = 3
 date = 16
+goto = 3
 
 story = """
-News outlets talk about shortage of supplies. Also, rise in Covid Cases
+
 It’s Monday morning. You and you Dad are eating waffles for breakfast, and your mom turns on the T.V. 
-
-“Breaking News: stocks of toilet paper, kleenex wipes, paper towels, water, and more have run out in stores. Shelves of these items are bare, causing some fights for the last packages of supplies. Stores now have to wait for new stocks to arrive, and we hope they will soon. There are still high demands for these products.”
-
-You suddenly have disinterest in finishing your breakfast. You turn around and stare on the T.V screen. Pictures of bare shelves, crowded stores with people fighting for the last packages, and the faces of worried and fearful people frantically looking around the stores.
-
-This was way more serious than you thought. Your mom and dad exchange worrisome looks, and converse about going out today to get some supplies, afraid that the shelves will be bare for a long time. They concluded that they were going to go buy some supplies today after you finish school.
-
-Your mom decided to stay home to prepare for dinner, while you and your dad went out to the store. You get there, and you instantly see loads of people rushing in and out of the store with their carts full of supplies. You start feeling tense, your heart racing, and you can feel your dad starting to worry too. You go to the cleaning supply section and see the nearly empty shelves. 
-
-“Only get what we need. We can’t stay for too long,” your dad says grimly. He grabs two packs of toilet paper, one for your house and one to drop off at your grandparents’ house. 
+# pause()
+# italic()
+# bold()
+“Breaking News: stocks of toilet paper, kleenex wipes, paper towels, water, and more have run out in stores. Shelves of these items are bare, causing some fights for the last packages of supplies.
+# normal()
+Stores now have to wait for new stocks to arrive, and we hope they will soon. There are still high demands for these products.”
+# pause()
+You suddenly have disinterest in finishing your breakfast. You turn around and stare on the T.V screen.
+# green()
+Pictures of bare shelves, crowded stores with people fighting for the last packages, and the faces of worried and fearful people frantically looking around the stores.
+# normal()
+# pause()
+This was way more serious than you thought. 
+# green()
+Your mom and dad exchange worrisome looks, and converse about going out today to get some supplies, afraid that the shelves will be bare for a long time. 
+# normal()
+You and your dad decide to go to the store.
+# pause()
+# green()
+You get to the store, and you instantly see 
+loads of people rushing in and out of the store with their carts full of supplies. 
+# normal()
+# pause()
+You start feeling tense, your heart racing, and you can feel your dad starting to worry too. You go to the cleaning supply section and see the 
+# green()
+nearly empty shelves. 
+# normal()
+# pause()
+# bold()
+“Only get what we need. We can’t stay for too long,” your dad says grimly. 
+# green()
+# bold()
 WHAT DO YOU GRAB? 
-
+# normal()
+# pause()
 # day2()
-
-On the way home, you contemplate if the supplies that you bought were enough to last a few months. You stress about running out of toilet paper and water, but try to push it aside. You and your dad sit in silence, listening to the radio. “Covid cases are still rising all across the United States. More than 4,500 have tested positive, and 88 have died. In the world, more than 181,000 people have tested positive. Health professionals advise that people stay home….”
+On the way home, you contemplate if the supplies that you bought were enough 2
+to last a few months. You and your dad sit in silence, listening to the radio. 
+# pause()
+# italic()
+# green()
+“Covid cases are still rising all across the United States. More than 4,500 have tested positive, and 88 have died. In the world, more than 181,000 people have tested positive. Health professionals advise that people stay home….”
+# normal()
 """

@@ -1,17 +1,29 @@
 year = 2020
 month = 6
 date = 9
+goto = 8
 
 story = """
-This year of school is almost over. Only two more weeks to go. You’ve gotten used to remote learning and have gotten better at managing your time. You appreciate how you are able to learn from the comfort of your own home. However, you still remember how all your 8th grade activities were cancelled, including your family’s vacation to DisneyLand. You were really looking forward to the 8th grade graduation ceremony, since it would be your last year in middle school.
-
-Zoom meetings have been fine for you. Some of your teachers stopped doing zoom meetings and just give lessons to do by yourself. It’s definitely not the same experience as being in regular school. 
-
-And instead of being stuck in your house all day doing homework, you occasionally go outside to your backyard for some fresh air. After finishing your homework, you decide to spend time with your little sister. 
-(Interactive part: user does homework and plays with little sister. )
+This year of school is almost over. Only two more weeks to go. You’ve gotten used to remote learning and have gotten better at managing your time. 
+# green()
+You appreciate how you are able to learn from the comfort of your own home. 
+# pause()
+However, you still remember how all your 8th grade activities were cancelled, including your family’s vacation to DisneyLand.
+# normal() 
+# pause()
+Some of your teachers stopped doing zoom meetings and just give lessons to do by yourself. It’s definitely not the same experience as being in regular school. 
+# pause()
+And instead of being stuck in your house all day doing homework, you occasionally go outside to your backyard for some fresh air. 
+# green()
+After finishing your homework, you decide to spend time with your little sister. 
+# normal()
+# pause()
 Playing with little sister:
-
+# pause()
 # day7()
-
-This was really fun for you. You realize that you should play more with your sister. This has made you really happy. You found a way to cope with the stress you’ve had with school.
+# pause()
+This was really fun for you. You realize that you should play more with your sister. 
+# green()
+This has made you really happy. You found a way to cope with the stress you’ve had with school.
+# normal()
 """

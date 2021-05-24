@@ -1,0 +1,8 @@
+story = """ 
+Life is starting to go back to normal.
+# green()
+Hybrid has started and is going sucessfully, businesses have started to reopen, and the distancing guidelines have changed from 6 feet to 3 feet. 
+
+Vaccines are now available to the public.
+# normal()
+"""

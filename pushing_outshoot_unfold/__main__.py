@@ -5,14 +5,15 @@ import toml
 import os
 import re
 import sys
-import random
 from glob import glob
 from pushing_outshoot_unfold import ascii, banner, sound, Term, interactions
 
 # ===== Setup =====
+print('!! IMPORTANT !!')
+print('Please resize the window to the size you want it now.')
+PLAY_MUSIC = input('Type `1` for music or `0` for mute. (music strongly suggested)') == '1'
 term = Term()
 clear_screen = lambda: os.system('cls' if sys.platform.startswith('win') else 'clear')
-PLAY_MUSIC = True # False or True
 
 # ===== Get Data =====
 days = {}
@@ -27,20 +28,20 @@ for filename in glob(filename):
 	days[name] = toml.load(filename)
 total_days = len(days.keys())
 
-
+# Moved:
 # ===== Character Selection =====
-def setup():
-	while True:
-		personality = input('Pick 0 or 1:')
-		if personality == '0':
-			personality = 'introvert'
-			break
-		elif personality == '1':
-			personality = 'extrovert'
-			break
-		else:
-			print('Please only chose 1 or 0!')
-	return personality
+# def setup():
+	# while True:
+	# 	personality = input('Pick 0 or 1:')
+	# 	if personality == '0':
+	# 		personality = 'introvert'
+	# 		break
+	# 	elif personality == '1':
+	# 		personality = 'extrovert'
+	# 		break
+	# 	else:
+	# 		print('Please only chose 1 or 0!')
+	# return personality
 
 # ===== Main =====
 def main(loop=-1):
@@ -64,6 +65,7 @@ def main(loop=-1):
 		m = int(day['month'])
 		y = int(day['year'])
 		d = int(day['date'])
+		goto = day['goto']
 		ascii.calendar(m, y, replace = [d])
 
 		# Show any notifications
@@ -74,11 +76,13 @@ def main(loop=-1):
 
 		# Setup story:
 		story = day['story']
-		parts = re.split(r'# ?(.*?)\n', story)
+		parts = re.split(r'(?:\[(.*?)\])|(?:# ?(.*?)\n)', story)
 		for part in parts:
+			if part is None:
+				continue
 			if part.endswith('()'):
 				part = part.strip('\n')
-				part = part.replace('()', ' ()')
+				part = part.strip('()') + " ()"
 				func_name, *args, _ = part.split()
 				try:
 					interaction = getattr(interactions, func_name)
@@ -86,14 +90,14 @@ def main(loop=-1):
 				except AttributeError:
 					raise Exception('No function is named {}!'.format(part))
 			else:
-				print(part)
+				print(part, end='')
 			
 
 		print()
-		input(term.center(term.grey('\ntype enter to continue...')))
+		input(term.center(term.grey('\nhit enter to continue...')))
 		print('\a') # make a "beep" sound
 		# End day
-		day_number += 1#random.randint(1, 3)
+		day_number = goto #random.randint(1, 3)
 
 if __name__ == "__main__":
 	i = 0
