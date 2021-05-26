@@ -1,0 +1,14 @@
+year  = 2020
+month = 8
+date = 17
+goto = 11
+
+story = """ 
+You decide to play hide and seek with your sister today!
+# day0100
+
+"""
+[[notification]]
+title = "Text Notification"
+text = "Fires in California."
+date = "Auguest 17th ,2020"

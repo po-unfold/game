@@ -5,27 +5,17 @@ goto = 6
 
 
 story = """
-# green()
-You hear on the news today that an African American man named George Floyd had passed away due to police violence. 
+You [green()]hear on the news[normal()] today that an [green()]African American man named George Floyd[normal()] had [green()]died due to police violence[normal()]. 
 # normal()
 # pause()
+
 There were other violent acts against African Americans before this event, however. 
 # green()
-You hear about protests and riots about the event that happened. 
+
+You hear about [green()]protests and riots[normal()] about the event that happened. 
 # normal()
-It makes you feel uncomfortable and you feel sad about what happened. But, you did see the posts about this event that your friends had put on their social media. 
-# green()
-You get the courage to text your friend:
-# pause()
-You: Hey, what have you been up to????
-Friend: Just watching a lot of Netflix and Hulu
-# normal()
-# day5()
-# pause()
-That was your first socialization with others outside your house in a while, and you get a ping of happiness. 
-# pause()
-A smile starts to form on your face. 
-# green()
-You realize that connecting with others can help you with your struggles. 
-# normal()
+
+It makes you [green()]feel uncomfortable[normal()] and you [green()]feel sad[normal()]about what happened. But, you did see the posts about this event that your friends had put on their social media. 
+
+
 """

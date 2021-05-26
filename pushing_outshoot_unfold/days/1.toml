@@ -4,28 +4,12 @@ date = 14
 goto = 2
 
 story = '''
-8:15 AM: Your alarm clock rings. It’s 8:15 a.m. 
-# green()
-Today is the first day of quarantine. 
-# normal()
-You get out of bed, brush your teeth, and have some breakfast. Bacon and eggs.
-The usual. 
+Your alarm clock rings. It’s 8:15 a.m. [green()] Today is the first day of quarantine. [normal()] You get out of bed, brush your teeth, and have some breakfast. 
+
+
+[green()] WHAT SHOULD YOU MAKE FOR BREAKFAST?
+# day0010
+
 # pause()
-You contemplate whether or not to make your bed and change out of your pajamas. Meh, it’s fine, you think. 
-# pause()
-# green()
-You only have 7 minutes before class starts.
-# normal()
-You sign into zoom and are accepted into the waiting room. You see a black screen that says “connecting” in white letters. 
-# normal()
-# pause()
-# green()
-Wait, something went wrong. You got kicked out of the meeting! 
-# normal()
-# pause()
-# green()
-You try to rejoin again and again, but the same thing keeps happening. 
-# normal()
-# pause()
-# day1()
-'''
+You contemplate whether or not to make your bed and change out of your pajamas. Meh, it’s fine, you think.
+

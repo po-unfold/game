@@ -7,16 +7,19 @@ goto = 15
 
 story = """
 # green()
-This Thanksgiving, you are going to celebrate it with your parents and your sister. It’s sad for you to not be able to see your extended family, and it is the same for others too. 
-# pause()
-You have newly found gratitude for the past years you’ve been able to spend Thanksgiving with your extended family. 
-# normal()
+ It's Thanksgiving!
+ # normal()
+
 It’s been a hard year for everyone, so you and your family decide to do something to give thanks. 
 # pause()
-You choose to donate a few boxes of canned food to the food bank, and cook some Thanksgiving meals to drop off at your grandparents’ house. 
+
+You choose to donate a few boxes of canned food to the food bank,and cook some Thanksgiving meals to drop off at your grandparents’ house. 
 # pause()
-Time for Thanksgiving dinner!
+
+Time for [green()]Thanksgiving dinner![normal()]
 # pause()
+
 # day14()
 # pause()
+
 You are also glad that you got a 5 day weekend. You are relieved that you get a break from school, since it has been pretty stressful and tiring."""

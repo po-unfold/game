@@ -1,0 +1,16 @@
+year = 2020
+month = 10
+date = 31
+goto = 14
+
+story = """
+Today is [green()]Halloween[normal()], and it was stated that [green()]people should stay home for the holiday for the safety of others[normal()]. 
+# normal()
+
+Huh, another holiday cancelled. You decide to try to make the best of things during this pandemic. 
+# pause()
+
+
+Your family decides to do a scavenger hunt!
+# day0130
+"""

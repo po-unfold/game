@@ -1,0 +1,35 @@
+year = 2020
+month = 4
+date = 21
+goto = 4
+
+
+story = """
+[green()]Tuesday[normal()] morning. [green()]8:15 a.m[normal()]. You just joined your first [green()]zoom meeting[normal()]. 
+# pause()
+
+Your teacher is going over the [green()]school announcements[normal()].You go from talking about grades, to keeping up with homework, to sources to help people reach out to teachers. But then, [green()]something catches your eye[normal()]. Right when your teacher clicks onto the last and final slide, you read the words: 
+# pause()
+
+# bold()
+# green()
+				“Schools have decided to keep remote learning for the rest of the year. Cancelling events. . .”
+# normal()
+# pause()
+
+Your teacher reads it outloud. 
+# pause()
+
+You sit there in [green()]disbelief. 
+# normal()
+# pause()
+
+It’s not like you didn’t see it coming though,but you still had that small part in the back of your head hoping that you could go back to school. 
+# pause()
+
+You start to [green()]feel upset[normal()], and from that point on, the [green()]idea of all the cancellations cloud your mind[normal()].
+# normal()
+# pause()
+
+# day0030
+

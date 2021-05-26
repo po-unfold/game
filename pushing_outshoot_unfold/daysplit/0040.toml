@@ -4,18 +4,15 @@ date = 12
 goto = 5
 
 story = """
+You are [green()]still having trouble keeping up with the amount of homework[normal()] that your teachers are giving you and keeping track of them. 
+# pause
 
-You also [green()]aren’t getting enough time outside of your room and haven’t been able to socialize with others much[normal()]. 
-#normal()
+Anyways, time to do some homework:(
 # pause()
 
-# day4()
-"""
 
 #"""
 [[notification]]
 title = "Text Notification"
 text = "Ventilators and testing kit shortage in hospitals."
 date = "May 12th ,2020"
-
-

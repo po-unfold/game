@@ -1,0 +1,23 @@
+year = 2020
+month = 3
+date = 14
+goto = 2
+
+
+You only have [green()] 7 minutes before class starts.
+# normal
+
+You [green()] sign into zoom and are accepted into the waiting room.[normal()] You see a black screen that says “connecting” in white letters. 
+# pause()
+# green()
+
+Wait, something went wrong. You got kicked out of the meeting! 
+# normal()
+# pause()
+# green()
+
+You try to rejoin again and again, but the same thing keeps happening. 
+# normal()
+# pause()
+# day1()
+'''

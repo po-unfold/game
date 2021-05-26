@@ -2,7 +2,9 @@ story = """
 Life is starting to go back to normal.
 # green()
 Hybrid has started and is going sucessfully, businesses have started to reopen, and the distancing guidelines have changed from 6 feet to 3 feet. 
-
-Vaccines are now available to the public.
+# pause()
+Vaccines are now available to the public. You have heard rumors that Covid might revisit us again in 5 or 6 more years, and that our battle with Covid may be a never-ending one. 
+# pause()
+You start to think back to when the pandemic first started and remember how scared and frustrated you were. You have learned more about yourself as a person and developed good characteristics. Even though the pandemic seemed never-ending, with the new regulations and vaccines, we are getting one step closer to normalcy. 
 # normal()
 """

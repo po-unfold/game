@@ -49,3 +49,9 @@ def calendar(month, year, replace = []):
 			line = line.replace(f' {date} ', term.cyan(f' {date} '))
 		print(line)
 
+def alarmclock(time = AM):
+	width_1 = 70
+	width_2 = 40
+	print('┏' + ('━' * width_1) + '┓')
+	print('┆' + ('┄' * width_2) + '┆')
+

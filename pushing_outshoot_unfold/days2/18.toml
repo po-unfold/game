@@ -4,17 +4,18 @@ date = 13#-20 (comes before jan news)
 goto = 19
 
 story = """
-January 20th, 2021: 
 
-2021 hadn’t started as good as you had expected too. 
-# green()
-There were many overwhelming events that happened. It was hard to comprehend everything that was happening.
+[green()]It was hard to comprehend everything that was happening this month.[normal()]
 # pause()
-On top of that, your class schedule has changed due to school learning regulations. 
+
+On top of that, your [green()]class schedule has changed due to school learning regulations.[normal()] 
 # normal()
-This new schedule is kind of wonky, and you’re having a hard time getting used to it. Also, you have a lot of homework, and you’re worried that you won’t get it done in time.
+
+This [green()]new schedule is kind of wonky[normal()], and you’re having a [green()]hard time getting used to it[normal()]. Also, you have a [green()]lot of homework[normal()], and you’re worried that you won’t get it done in time.
 # pause()
+
 x eng() math() sci()
+
 """
 [[notification]]
 title = "News Notification"

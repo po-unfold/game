@@ -1,0 +1,19 @@
+year = 2021
+month = 3
+date = 25
+goto = 22
+
+story = """
+3 more months till school is over!!! The weather is FINALLY starting to get a bit better. :) But, nevertheless, school has kept throwing challenges at you. >:(
+# pause()
+
+# green()
+Your current challenge is [green()]navigating through another new schedule[normal()]. There have been announcements via email about [green()]starting a hybrid plan, where 2 groups of students (groups A and B) would go to school while group C would remain at home.[normal()]
+# pause()
+
+Due to the events in the news, you have [green()]decided to continue your remote learning journey with your fellow group C members[normal()]. Even though there has been an order to get [green()]vaccinations[normal()] out, they [green()]aren’t approved for minors. [normal()]
+# pause() 
+
+Homework Time!
+# day0210
+"""

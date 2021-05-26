@@ -5,30 +5,14 @@ goto = 4
 
 
 story = """
+
 # green()
-Tuesday morning. 8:15 a.m. You just joined your first zoom meeting. 
-# normal()
-Your teacher is going over the school announcements.You go from talking about grades, to keeping up with homework, to sources to help people reach out to teachers. But then, something catches your eye. Right when your teacher clicks onto the last and final slide, you read the words: 
+Today you have homework from 4 of your classes[normal()] and you also have some homework to finish from yesterday. 
 # pause()
-# bold()
-# green()
-				“Schools have decided to keep remote learning for the rest of the year. Cancelling events. . .”
-# normal()
+
+You need to get them done before 6:00 p.m when they are due. It is currently 4:00 p.m. You realized that [green()]you underestimated how easy remote learning was going to be[normal()]. 
 # pause()
-Your teacher reads it outloud. 
-# green()
-You sit there in disbelief. 
-# normal()
-It’s not like you didn’t see it coming though,but you still had that small part in the back of your head hoping that you could go back to school. 
-# green()
-You start to feel upset, and from that point on, the idea of all the cancellations cloud your mind.
-# normal()
-# pause()
-# green()
-Today you have homework from 4 of your classes and you also have some homework to finish from yesterday. 
-# normal()
-You need to get them done before 6:00 p.m when they are due. It is currently 4:00 p.m. You realized that you underestimated how easy remote learning was going to be. 
-# pause()
+
 # green()
 You decide to do your homework. You need to do algebra, english, and science.
 # normal()

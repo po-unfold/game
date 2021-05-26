@@ -5,9 +5,9 @@ goto = 17
 
 story = """
 The final exams are here! You are supposed to only attend 3 classes a day. 
-
+# pause()
 You see that you did pretty well on your exams!
 
-There were some answers that you missed that made you angry with yourself. That’s because on those ones, you self doubted yourself and changed your answer. 
+You decide to just finish up some extra credit english homework.
 
-However, you now get a 2 and a half weeks break from school, woo-hoo!"""
+# day16

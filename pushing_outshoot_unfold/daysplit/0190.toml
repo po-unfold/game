@@ -8,14 +8,11 @@ story = """
 It was really sad to see what was going on in Perth, Australia. 
 # pause()
 
-# green()
-You see pictures of hurt animals. Animals that are deprived of water and animals that have lost their homes.
+You did post about it on social media when you heard about it.
 # pause()
 
-People also had to evacuate their homes even during the covid lockdown. Some people have nowhere to go or stay. You decide you want to do something to help the situation. 
-# normal()
-
-# day19()
+Now its time to do homework. You wish summer was here. . .
+# day0190
 """
 [[notification]]
 title = "News Notification"

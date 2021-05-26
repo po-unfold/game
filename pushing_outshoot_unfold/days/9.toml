@@ -4,17 +4,11 @@ date = 4
 goto = 10
 
 story = """
-# green()
-Today is the 4th of July. 
-# normal()
-Usually, your parents would invite over family for a BBQ party. 
-# green()
-You notice that your parents were also sad about not being able to see family too. Most people canceled doing fireworks this year, too. 
-
-Thinking about this makes you pretty sad, and you spend most of the day being gloomy. 
+Today is the [green()]4th of July[normal()]!
 # pause()
-# normal()
+
 That evening, your parents tell you that they planned some fun activities for you and your sister to do this July 4th. 
+
 # green()
 You and your parents are going to try to bake something for after dinner dessert. Happy that you wouldn’t spend your 4th of July gloomily, you instantly agree. 
 # normal()
