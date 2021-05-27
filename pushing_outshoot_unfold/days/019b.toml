@@ -8,7 +8,7 @@ story = '''
 It was really sad to see what was going on in Perth, Australia. 
     __                      __
  .-'  `'.._...-----..._..-'`  '-.
-/                                \
+/                                \\
 |  ,   ,'                '.   ,  |
  \  '-/                    \-'  /
   '._|          _           |_.'
@@ -16,7 +16,7 @@ It was really sad to see what was going on in Perth, Australia.
      |    \/   | |    \/    |
       \        \~/         /
        '.    =='^'==     .'
-jgs      `'------------'`
+         `'------------'`
 # pause()
 
 You did post about it on social media when you heard about it.
@@ -27,6 +27,6 @@ Now its time to do homework. You wish summer was here. . .
 '''
 [[notification]]
 title = "News Notification"
-text = "Wooroloo Bushfire in Perth, Australia,causing people have to evacuate even though there is covid lockdown."
+text = "Wooroloo Bushfire in Perth, Australia, causing people have to evacuate even though there is covid lockdown."
 date = "February 1st 2021"
 

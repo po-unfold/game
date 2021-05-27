@@ -8,8 +8,8 @@ story = """
 
 You and your [green()]parents[normal()] have been [green()]worrying about[normal()] your [green()]grandparents[normal()] lately. Your aunt, cousins, and grandparents live in the same house. That is why your aunt and cousins can’t leave, due to the [green()]risk of exposing the virus to[normal()] your [green()]grandparents. 
   ____||____
- ///////////\
-///////////  \
+ ///////////\\
+///////////  \\
 |    _    |  |
 |[] | | []|[]|
 |   | |   |  |
@@ -24,7 +24,8 @@ You suggest to your parents that you could drop off supplies in front of your gr
 # pause()
 
 Your parents agree, and you are delighted.
-# normal() 
+
+# normal()
 # day6a()
 """
 

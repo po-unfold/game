@@ -6,17 +6,12 @@ goto = 22
 story = '''
 
 You look at the new schedule and see the new timings. School now starts at 7:45! Which means that you’ll have to wake up early. :( But since school starts early, classes finish by afternoon, so you have extra time for homework!
-# pause() 
+# pause()
 
 Classes just finished! Whew! That was super confusing. You get started on homework. Since you have a lot of math homework, you decide to do that first. 
-# pause() 
-# additon()
-# additon()
-# additon()
-# additon()
-# additon()
-# additon()
-# pause() 
+# pause()
+# day21a()
+# pause()
 
 Wow, you’re speedy fast! You breathe a sigh of relief and decide to wind down for the day. 
 '''

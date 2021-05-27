@@ -17,9 +17,10 @@ You are [green()]still having trouble keeping up with the amount of homework[nor
 
 Anyways, time to do some homework:(
 # pause()
-# day4b()
 
-"""
+[day4b()]
+
+'''
 [[notification]]
 title = "Text Notification"
 text = "Ventilators and testing kit shortage in hospitals."

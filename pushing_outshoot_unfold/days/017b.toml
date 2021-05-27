@@ -1,7 +1,7 @@
 year = 2020#-2021
 month = 12#-1
 date = 31#-1
-goto = 545 # go to the notifications
+goto = 18 # go to the notifications
 
 story = '''
 [green()]New Years approaches[normal()] and you are glad that 2020 is ending. You hope that 2021 will be amazing and that restrictions will lighten up. 

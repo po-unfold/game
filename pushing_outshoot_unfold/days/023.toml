@@ -1,0 +1,7 @@
+goto = 999
+story = """
+	     THE END
+# pause()
+
+Thank you for playing the game. Hopefully, you enjoyed it. 
+"""

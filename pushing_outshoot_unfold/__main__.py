@@ -57,20 +57,24 @@ def main(loop=-1):
 
 	while True:
 		clear_screen()
-
-		# chose A or B
 		day = str(day_number).zfill(3) + a_or_b
-		if __dev__: print(day)
-		day = days[day]
+		# print(day)
+		try:
+			day = days[day]
+		except KeyError:
+			try:
+				day = days[str(day_number).zfill(3)]
+			except KeyError:
+				break
 
 		# Setup the day:
 		goto = day['goto']
 		try:
-			percent_done = 100 * (day_number / total_days)
-			ascii.progress(percent_done)
 			m = int(day['month'])
 			y = int(day['year'])
 			d = int(day['date'])
+			percent_done = 100 * (day_number / total_days)
+			ascii.progress(percent_done)
 			ascii.calendar(m, y, replace = [d])
 		except:
 			pass
@@ -115,7 +119,7 @@ def main(loop=-1):
 		if int(day_number) > 99:
 			a_or_b = ""
 		else:
-			a_or_b = random.choice("ab")
+			a_or_b = "b"#random.choice("ab")
 
 if __name__ == "__main__":
 	i = 0

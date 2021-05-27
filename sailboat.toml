@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.3.0+d36343e.1"
-release-notes = "[prerelease] backup monday's work"
-latest_release = "0.2.3-dev1"
+latest_build = "1.0.0"
+release-notes = "Testing"
+latest_release = "0.3.0"
 
 
 # Resource Setup:

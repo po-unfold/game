@@ -10,29 +10,26 @@ Today is [green()]Halloween[normal()]!
           ___
        ___)__|_
   .-*'          '*-,
- /      /|   |\     \
-;      /_|   |_\     ;
-;   |\           /|  ;
-;   | ''--...--'' |  ;
- \  ''---.....--''  /
+ /      /|   |\\     \\
+;      /_|   |_\\     ;
+;   |\\           /|  ;
+;   | ''--...--''  |  ;
+ \\  ''---.....--''  /
   ''*-.,_______,.-*'   
 
 # green()
 
 You decide to make a [green()]competition to see who makes the best costume among your friends[normal()]. 
-# normal()
-# pause()
 
-# day13a()
-# pause()
+[day13a()]
 
 Overall, it was so fun. You were supposed to be eating halloween candy too, but the package that you mom ordered hadn’t arrived yet. 
 
-     ___      .-""-.      ___
-     \  "-.  /      \  .-"  /
-      > -=.\/        \/.=- <
-      > -='/\        /\'=- <
-     /__.-'  \      /  '-.__\
+     ___      .-''-.      ___
+     \\  '-.  /      \\  .-'  /
+      > -=.\\/        \\/.=- <
+      > -='/\\        /\\'=- <
+     /__.-'  \\      /  '-.__\\
               '-..-'
 							
 # pause()

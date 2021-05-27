@@ -1,3 +1,5 @@
+goto = 999
+
 story = """ 
 Life is starting to go back to normal.
 # green()

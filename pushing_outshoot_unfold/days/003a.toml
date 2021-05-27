@@ -9,15 +9,15 @@ story = """
 # green()
 Today you have homework from 4 of your classes[normal()] and you also have some homework to finish from yesterday. 
 # pause()
-    ,..........   ..........,
+         ,..........   ..........,
      ,..,'          '.'          ',..,
     ,' ,'            :            ', ',
    ,' ,'             :             ', ',
   ,' ,'              :              ', ',
  ,' ,'............., : ,.............', ',
 ,'  '............   '.'   ............'  ',
- '''''''''''''''''';''';''''''''''''''''''
-                    '''
+ ..................;...;..................
+
 You need to get them done before 6:00 p.m when they are due. It is currently 4:00 p.m. You realized that [green()]you underestimated how easy remote learning was going to be[normal()]. 
 # pause()
 

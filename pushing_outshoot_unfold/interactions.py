@@ -23,7 +23,7 @@ def ask_sci(amount):
 		sci()
 term = Term()
 goto = lambda day: day
-pause = lambda: time.sleep(1.5)
+pause = lambda: time.sleep(0)
 red = lambda: print(term.red, end='')
 bold = lambda: print(term.bold, end='')
 blue = lambda: print(term.blue, end='')
@@ -53,7 +53,7 @@ def day1a():
 			print('Cinnamon Toast Crunch is sooooo good. You wish you could have it for breakfast everyday, but you know your parents won\'t let you.')
 		else:
 			print('Nice and simple. You could never get tired of Honey Nut Cheerios. :)')
-	if breakfast == '2':
+	elif breakfast == '2':
 		bread = input('Do you want some toast with your eggs and bacon? Yes or No')
 		if bread.lower()[0] == 'y':
 			print('It was a nice addition to your breakfast and balanced the saltiness of the bacon.')
@@ -81,15 +81,22 @@ def day1a():
 def day1b():
 	user_answer = input('''You can pick one of the following options:
 	1. Try to go to a different part of the house to see if the connection is better there.
+
 	2. Email your teacher about what's going on.
 	>>> ''')
+
 	if user_answer in ('1',  '2'):
 		print(f'''{term.green('Zoom finally worked!')}
 
 You got into your first class, pre-Algebra.
+
 You breathe a sigh of relief. Your heart was still racing rapidly and you have a bit of a headache from the stress of all that.
+
 However, after that first Zoom meeting, you kind of get the jist of things, and joining the rest of your Zoom meetings is easier.
-Nothing more to worry about for the rest of the day. Teachers were just going over work and explaining how Zoom classes would work.
+
+Nothing more to worry about for the rest of the day. 
+
+Teachers were just going over work and explaining how Zoom classes would work.
 
 {term.green('First day, complete. Phew!')}''')	
 	else:
@@ -99,6 +106,7 @@ def day2a():
 	user_supplies = input('1. Canned Food\n2. Packs of Water\n>>> ')
 	if user_supplies == '1':
 		canned_food = input('Do you pick:\n1. Beans and Tuna\n2. Veggies and Soup\n>>> ')
+
 		if canned_food == '1':
 			print('You decided to pick beans and tuna because that was what you thought you grandparents, aunt, and cousins would make more use for.')
 		else:
@@ -117,12 +125,15 @@ def day2b():
 	>>> ''')
 	if watch == '1':
 		print('Nice! Your parents had purchased a Hulu membership a few weeks ago, and you\'ve been spending a lot of your time watching the movies on there.')
+
 		show = input('''What movie/show do you want to watch?
+
 	1. The Office
 	2. Mean Girls
 	>>> ''')
 		if show == '1':
 			print('All time classic. You\'ve already watched the whole thing like 5 times now, but you just love it so much!')
+
 		else:
 			print('You\'ve never watched Mean Girls before, and wanted to give it a try. You had heard many people talk about it. It was pretty good and enjoyable!')
 	else:
@@ -167,7 +178,7 @@ def day4b():
 
 def day5a():
 	post = input('Do you want to post about it on social media? Yes or No?')
-	if post.lower()[0] == 'y':
+	if post.lower() == 'yes':
 		um = input('''Pick either 1 or 2.
 	1. Post a news article
 	2. Post Black Lives Matter artwork
@@ -188,32 +199,45 @@ def day5b():
 	else:
 		print('''
 	F: other than that, it's kinda overwhelming with all the homework we have.
-	Y: ‘yeah, I felt that way too. You should totally try to make a planner. It helped me a lot. 
+
+	Y: ‘yeah, I felt that way too. You should totally try to make a planner. It helped me a lot.
+
 	F: Good idea, I should probably start doing that so I don’t fail my classes.
+
 	F: I also have to take care of my baby sister so it’s hard sometimes to finish my homework.''')
+
 		yes = input('''Pick a suggestion. Pick either 1,2, or 3.
 	1. Make a weekly/monthly schedule.
 	2. Find safe and fun activities for your sister to do while you're doing your homework.
 	3. We can help eachother with homework on Zoom!
 	>>> ''')
+
 		if yes == '1':
 			print('''F: That’s a great idea, thanks!
 	Y: Np!''')
 		elif yes == '2':
-			print('''F: 'I don't know what activities though . . . I'll probably just search some up!')
+			print('''F: 'I don't know what activities though . . . I'll probably just search some up!'
+
 	Y: Sounds great!''')
+
 		else:
 			print('''F: Yes, that would help a lot. Thanks!
+
 	Y: Yeah, it'll be super fun!''')
 
 def day6a():
 	supply_stuff = input('WHAT SUPPLIES WILL YOU DROP OFF?\n>>> ')
 	meal_stuff = input('WHAT MEALS WILL YOU GIVE THEM?\n>>> ')
 	print(f"""Later that day, your parents drive you to your grandparents' house.
+
 	Wearing gloves, you carry the box with the supplies and meals and place it in front of the front door.
+
 	You ring the doorbell and run back to the front driveway, a safe distance away.
+
 	Your aunt opens the door and waves at you, your cousins behind her, your grandparents watching from the window.
+
 	You smile (the smile being hidden by the mask you’re wearing) and say hi to everyone, happy to see them again.
+
 	On the way home, your aunt calls your parents and thanks them for the {meal_stuff} and the {supply_stuff}.""")
 def day6b():
 	active = input('''What should you do? Pick either 1 or 2.
@@ -421,26 +445,35 @@ def day12a():
 def day12b():
 	print('TIME TO PLAY: THIS OR THAT!')
 	one = input('Morning or Night?')
+
 	two = input('Cat or Dog?')
+
 	three = input('City or Country?')
+
 	four = input('Text or Call?')
+
 	five = input('Summer or Winter?')
+
 	five = input('Love or Money?')
+
 	six = input('Fire or Ice?')
+	
 	print('Hm, it was hard to choose for some of them.')
 
 def day13a():
 	costume = input('What did you dress up as for halloween?\n>>> ')
-
+	pause()
 	print(f"At 8:00 p.m you join a Facetime meeting with your friends and show off your {costume} costume. One of your friends dressed up as Hermione Granger from the Harry Potter series. Your other friend dressed up as Jim from The Office, and another dressed up as a blessing in disguise. That friend had taped the word blessing on her shirt and put on a funny mask to disguise their face.")
+	pause()
 	print("\U0001F923 Very funny.") 
 	winner = input('Who do you think won?   ')
+	pause()
 	print(f"Your friends totally agree that {winner} won.")
 	fun = input('''Later that night your family decides to do a fun family activity. You have two options.
 	1.Play monopoly 
 	2.Watch a halloween movie     
 	>>> ''')
-
+	pause()
 	if fun == '1':
 		print('It was really fun, but you got annoyed like 50% of the time, because you kept landing on really expensive properties.')
 	else:
@@ -585,9 +618,9 @@ def day20b():
 	support = input('Resturaunt or Bakery?                 ')
 	if support == 'Resturaunt' or 'resturaunt':
 		then = input('''Pick either 1 or 2.
-		1. Italian Food
-		2. Thai Food 
-		''')
+	1. Italian Food
+	2. Thai Food 
+		>>> ''')
 		if then == '1':
 			print('Yum, you picked up some Shrimp Scampi and Fettucine Alfredo.')
 		if then == '2':
@@ -595,7 +628,13 @@ def day20b():
 		if support == 'Bakery' or 'bakery':
 			print('You decided to go to a bakery 5 minutes away from your house. You got an everything bagel, a plain bagel, chocolate chip cookie, a scone, and a slice of apple pie. Delicious!')
 
-def day21a(): pass
+def day21a():
+	addition()
+	addition()
+	addition()
+	addition()
+	addition()
+	addition()
 def day21b():
 	ask_math(5)
 	ask_eng(5)

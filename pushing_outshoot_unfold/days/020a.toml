@@ -1,7 +1,7 @@
 year = 2021
 month = 2
 date = 29# (comes after feb news string)
-goto = 123
+goto = 300
 
 story = '''
 February 29th, 2021: 
@@ -12,8 +12,8 @@ It was very shocking to hear about the winter storm in Texas. Most houses in Tex
 # pause()
 
 Lately, you’ve been starting to exercise more and are considering joining some school sports when schools open back up! 
-     ,-'''-.
-    /\     /\
+     ,-"""-.
+    /\     /\\
     | |   | |
     \/     \/
      '-...-'
