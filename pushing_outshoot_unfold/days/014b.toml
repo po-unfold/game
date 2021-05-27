@@ -1,0 +1,29 @@
+year = 2020
+month = 11
+date = 26
+goto = 15
+
+
+
+story = '''		
+This [green()]Thanksgiving[normal()], you are going to [green()]celebrate it with your parents and your sister[normal()]. It’s sad for you to not be able to see your extended family, and it is the same for others too. 
+
+              _______       _"_
+          _ /     |   \_   (  .)
+        _/   \     |     \ /   >
+      / \      \    |     /   }
+    /      \     _ - -   /   }}
+   | -  _    \-/            )}
+  / _ _ _ _> \             /
+  |__________ \   / /  / /
+               \_/_/___/
+                 |   |
+                 |   |
+                 |   |
+                /!\ /!\
+
+# pause()
+
+You have [green()]newly found gratitude for the past years you’ve been able to spend Thanksgiving with your extended family[normal()]. '''
+
+

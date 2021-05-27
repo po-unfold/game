@@ -1,0 +1,22 @@
+year = 2020
+month = 12
+date = 1
+goto = 16
+
+story = """
+AHHHHHH, the first [green()]final exams are coming up[normal()] this month! 
+
+
+You spend most of your time [green()]studying[normal()] today, but also [green()]taking care of your sister[normal()].
+        
+# pause()
+
+Time to study!
+    _______
+   /      /,
+  /      //
+ /______//
+(______(/
+        
+# day15b()
+"""

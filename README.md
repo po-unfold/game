@@ -1,14 +1,30 @@
 # Pushing Outshoot Unfold
 
-This is the source code for a game about a teen getting through Covid-19.
+*remembering the pandemic*
 
-It is a text based game, but we can add awesome ASCII graphics.
+### Install:
+[go here](https://pounfold.netlify.app/)
 
-If you edit anything, just add comments explaining it! But anything is fine to add.
-
-The app is auto-built on the cloud on GitHub. The releases can be found [here](https://github.com/po-unfold/game/releases).
-
-The main code is in the `pushing_outshoot_unfold/` folder.
-
-The `sailboat.toml` file is the configuration for all of the project, so that [`sailboat`](https://github.com/cole-wilson/sailboat) can build it.
-
+### File Structure:
+basically just ignore all folders except `pushing_outshoot_unfold`
+```text
+./
+├───...
+├───pushing_outshoot_unfold/ #(the main source )
+│   ├───days/							# The only days folder.
+│   │   ├───001a.toml			# Day 1 version A
+│   │   └───001b.toml			# Day 1 version B
+│   ├───sounds/						# Sound files
+│   ├───__init__.py				# Contains metadata, just ignore
+│   ├───__main__.py				# Entrypoint for the project, main code here
+│   ├───ascii.py					# Dynamic ASCII art functions
+│   ├───banner.py					# Title screen ASCII stuff
+│   ├───eng.py						# English questions
+│   ├───math.py						# Math questions
+│   ├───sci.py						# English questions
+│   ├───sound.py					# Code to run cross-platform sound files
+│   └───interactions.py		# Main code for each day, plus utility funcs for stories
+├───sailboat.toml					# Config file for distribution
+├───icon.*								# Icons
+└───run.py2								# repl.it script to run project easily with run button
+```

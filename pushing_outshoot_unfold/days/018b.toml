@@ -1,0 +1,13 @@
+year = 2021
+month = 1
+date = 13#-20 (comes before jan news)
+goto = 100
+
+story = """
+January 20th, 2021: 
+
+2021 hadn’t started as good as you had expected too. 
+# pause()
+
+There were [green()]many overwhelming events[normal()] that happened.
+"""

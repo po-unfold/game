@@ -1,0 +1,28 @@
+year = 2020
+month = 9
+date = 3 
+goto = 12
+
+
+story = '''
+# green()
+Prepare yourself for school! 
+
+       .--.                   .---.
+   .---|__|           .-.     |~~~|
+.--|===|--|_          |_|     |~~~|--.
+|  |===|  |'\     .---!~|  .--|   |--|
+|%%|   |  |.'\    |===| |--|%%|   |  |
+|%%|   |  |\.'\   |   | |__|  |   |  |
+|  |   |  | \  \  |===| |==|  |   |  |
+|  |   |__|  \.'\ |   |_|__|  |~~~|__|
+|  |===|--|   \.'\|===|~|--|%%|~~~|--|
+^--^---'--^    `-'`---^-^--^--^---'--' 
+
+# pause()
+
+You picked up your new chromebook and supplies today. 
+
+You also prepare your desk for classes and hang up your new class schedule. You feel nervous and excited at the same time. 
+# normal()
+'''

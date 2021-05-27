@@ -1,0 +1,35 @@
+year = 2021 
+month = 2
+date = 1
+goto = 200
+
+story = '''
+
+It was really sad to see what was going on in Perth, Australia. 
+# pause()
+
+# green()
+You see pictures of hurt animals. Animals that are deprived of water and animals that have lost their homes.
+    __                      __
+ .-'  `'.._...-----..._..-'`  '-.
+/                                \
+|  ,   ,'                '.   ,  |
+ \  '-/                    \-'  /
+  '._|          _           |_.'
+     |    /\   / \    /\    |
+     |    \/   | |    \/    |
+      \        \~/         /
+       '.    =='^'==     .'
+         `'------------'`
+# pause()
+
+People also had to evacuate their homes even during the covid lockdown. Some people have nowhere to go or stay. You decide you want to do something to help the situation. 
+# normal()
+
+# day19a()
+'''
+[[notification]]
+title = "News Notification"
+text = "Wooroloo Bushfire in Perth, Australia,causing people have to evacuate even though there is covid lockdown."
+date = "February 1st 2021"
+

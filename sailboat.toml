@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "0.2.3-dev1"
-release-notes = "Finished for the day. Cleaned up interactions and we now have a working game playable thru the end."
-latest_release = "0.2.3"
+latest_build = "0.3.0"
+release-notes = "[prerelease] backup monday's work"
+latest_release = "0.2.3-dev1"
 
 
 # Resource Setup:

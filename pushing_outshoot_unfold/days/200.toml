@@ -1,0 +1,14 @@
+goto = 20
+
+[[notification]]
+title = "News Notification"
+text = "UAE orbits around mars. "
+date = "February 9th, 2021"
+[[notification]]
+title = "News Notification"
+text = "Mars perseverance rover land. "
+date = "February 18th, 2021"
+[[notification]]
+title = "News Notification"
+text = "US President Joe Biden declares a major disaster in Texas as state struggles to cope with aftermath of a crippling winter storm."
+date = "February 20th, 2021"

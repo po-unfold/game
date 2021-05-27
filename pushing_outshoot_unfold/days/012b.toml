@@ -1,0 +1,37 @@
+year = 2020
+month = 9
+date = 9
+goto = 13
+
+story = """
+Today is the [green()]first day of your freshman year[normal()]!
+
+Classes aren’t that different from middle school, but you are [green()]worried about the homework workload[normal()]. No zoom problems.
+# pause()
+
+You look at all the profiles on the zoom meeting. You remember that there are people from 4 schools mixed together. You don’t see many familiar faces. 
+# pause()
+
+# green()
+You remember how awkward zoom meetings are. Especially going into breakout rooms. Most people had their cameras off, and a lot of people didn’t talk at all. 
+# normal()
+
+Some [green()]classes[normal()] were [green()]kind of confusing[normal()] too. You had to get used to the [green()]strange class schedules[normal()]. You couldn’t believe that you had 20 minutes of passing time between classes.
+# pause()
+
+To take a break from school, you decide to go through a This or That book.
+   ,   ,
+  /////|
+ ///// |
+|~~~|  |
+|===|  |
+|   |  |
+|   |  |
+|   | /
+|===|/
+'---'
+
+# pause()
+# day12b()
+
+"""

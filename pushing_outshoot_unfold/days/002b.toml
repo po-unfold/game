@@ -1,0 +1,19 @@
+year = 2020
+month = 3
+date = 16
+goto = 3
+
+story = '''
+It’s [green()]Monday morning.[normal()] You and you Dad are eating waffles for breakfast, and your mom turns on the T.V. 
+# pause()
+
+You're listening to the news. They talk about how stores now have to wait for new stocks to arrive, and we hope they will soon. There are still [green()]high demands for these products.[normal()]
+# pause()
+
+You suddenly have disinterest in finishing your breakfast. You turn around and stare on the T.V screen.
+# pause()
+
+The news segment ends. You decide to watch something else.
+
+# day2b()
+'''

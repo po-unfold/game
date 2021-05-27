@@ -1,0 +1,33 @@
+year = 2020
+month = 6
+date = 22
+goto = 9
+
+story = '''
+It’s the [green()]last day of school![normal()] 
+
+Today you’re supposed to go drop off your textbooks at your middle school. Your middle school is doing a [green()]last meeting activity with your teachers[normal()]. You teachers are at different stations and they wave to you as you drive around to each station. 
+
+        _______
+       //  ||\ \
+ _____//___||_\ \___
+ )  _          _    \
+ |_/ \________/ \___|
+___\_/________\_/______
+
+# pause()
+
+One of your teachers hands you a note, while another gives you your yearbook. [green()]As you wave goodbye to your 8th grade teachers, you feel a bit sad. [normal()]
+
+# green()
+This wasn’t really the way you wanted this year to end, but this is what is needed to keep everyone safe. 
+# pause()
+
+You start to flip through your yearbook in the car. First you look through the table to contents. 
+# normal()
+
+It must be upsetting for the fifth graders to end their year this way too, you think to yourself. You can relate to them. Your mind focuses back onto your yearbook.
+# pause()
+# day8a()
+ 
+'''

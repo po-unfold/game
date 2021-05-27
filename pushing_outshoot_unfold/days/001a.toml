@@ -1,0 +1,21 @@
+year = 2020
+month = 3
+date = 14
+goto = 2
+
+story = """
+Your alarm clock rings. It’s 8:15 a.m. [green()] Today is the first day of quarantine. [normal()]You get out of bed, brush your teeth, and get ready to have some breakfast. 
+    ____________
+   |  _       _ |
+   | |_| o | |_ |
+	 | |_| o |  _||
+   |____________| 
+
+
+[green()]WHAT SHOULD YOU MAKE FOR BREAKFAST?[normal()]
+# day1a()
+
+# pause()
+You contemplate whether or not to make your bed and change out of your pajamas. Meh, it’s fine, you think.
+
+"""

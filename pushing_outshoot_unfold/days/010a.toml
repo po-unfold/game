@@ -1,0 +1,13 @@
+year  = 2020
+month = 8
+date = 17
+goto = 11
+
+story = """ 
+# day10a()
+
+"""
+[[notification]]
+title = "Text Notification"
+text = "Fires in California."
+date = "Auguest 17th ,2020"

@@ -7,8 +7,8 @@ term = Term()
 def ask_sci():
 	question = random.randint(1,30)
 	if question == '1':
-		user_response = input(' What is the essential gas needed for us to breath?  ')
-		if user_response.lower() == 'Oxygen':
+		user_response = input(' What is the essential gas needed for us to breath?')
+		if user_response.lower()[0] == 'o':
 			print('Correct!')
 		else:
 			print('Incorrect! correct answer is Oxygen')
@@ -108,18 +108,21 @@ def ask_sci():
 			print('Correct!')
 		else:
 			print('Incorrect! correct answer is calcium')
+
+	# I need to change something with this, will uncomment soon!
+
 	# if question == '18':
 	# 	user_response = input('What are the three states of matter?  ')
 	# 	if user_response.lower() == 'solid' and 'liquid' and 'gas':
 	# 		print('Correct!')
 	# 	else:
 	# 		print('Incorrect!')
-	if question == '19':
-		user_response = input('What is the third planet in our solar system?   ')
-		if user_answer.lower() == 'earth':
-			print('Correct!')
-		else:
-			print('Incorrect! correct answer is Earth. ')
+	# if question == '19':
+	# 	user_response = input('What is the third planet in our solar system?   ')
+	# 	if user_answer.lower() == 'earth':
+	# 		print('Correct!')
+	# 	else:
+	# 		print('Incorrect! correct answer is Earth. ')
 	if question == '20':
 		user_response = input('How many planets are in our solar sytem?  ')
 		if user_response.lower() == 'nine':

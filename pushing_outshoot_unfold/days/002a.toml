@@ -1,0 +1,66 @@
+year = 2020
+month = 3
+date = 16
+goto = 3
+
+story = """
+# italic()
+# bold()
+“Breaking News: stocks of toilet paper, kleenex wipes, paper towels, water, and more have run out in stores. [green()]Shelves [normal()]of these items are [green()]bare[normal()], causing some [green()]fights for the last packages of supplies.
+# normal()
+# pause()
+
+
+On the T.V are pictures of [green()]bare shelves, crowded stores [normal()]with people [green()]fighting[normal()] for the last packages, and the faces of [green()]worried and fearful people[normal()] frantically looking around the stores.
+# normal()
+# pause()
+ _______________
+|,----------.  |\
+||           |=| |
+|| N E W S   || | |
+||       . _o| | | __
+|`-----------' |/ /~/
+ ~~~~~~~~~~~~~~~ / /
+                 ~~
+
+This was way more serious than you thought.
+# pause() 
+
+# green()
+Your mom and dad exchange worrisome looks, and converse about going out today to get some supplies, afraid that the shelves will be bare for a long time. 
+# normal()
+# pause()
+
+You and your dad decide to go to the store.
+# pause()
+
+You get to [green()]the store[normal()], and you instantly see loads of [green()]people rushing in and out [normal()]of the store with their [green()]carts full of supplies[normal()]. 
+# pause()
+
+You start [green()]feeling tense[normal()], your [green()]heart racing[normal()], and you can feel your [green()]dad starting to worry[normal()] too. 
+# pause()
+
+You go to the cleaning supply section and [green()]see the nearly empty shelves[normal()]. 
+# pause()
+
+# bold()
+“Only get what we need. We can’t stay for too long,” your dad says grimly. 
+# green()
+# bold()
+# pause()
+
+WHAT DO YOU GRAB? 
+# normal()
+# pause()
+# day2a()
+
+# pause()
+
+[green()]While driving home, you and your dad[normal()] sit in silence, [green()]listening to the radio[normal()]. 
+# pause()
+
+# italic()
+# green()
+“Covid cases are still rising all across the United States. More than 4,500 have tested positive, and 88 have died. In the world, more than 181,000 people have tested positive. Health professionals advise that people stay home….”
+# normal()
+"""

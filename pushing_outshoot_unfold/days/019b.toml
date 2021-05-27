@@ -1,0 +1,32 @@
+year = 2021 
+month = 2
+date = 1
+goto = 200
+
+story = '''
+
+It was really sad to see what was going on in Perth, Australia. 
+    __                      __
+ .-'  `'.._...-----..._..-'`  '-.
+/                                \
+|  ,   ,'                '.   ,  |
+ \  '-/                    \-'  /
+  '._|          _           |_.'
+     |    /\   / \    /\    |
+     |    \/   | |    \/    |
+      \        \~/         /
+       '.    =='^'==     .'
+jgs      `'------------'`
+# pause()
+
+You did post about it on social media when you heard about it.
+# pause()
+
+Now its time to do homework. You wish summer was here. . .
+# day19b()
+'''
+[[notification]]
+title = "News Notification"
+text = "Wooroloo Bushfire in Perth, Australia,causing people have to evacuate even though there is covid lockdown."
+date = "February 1st 2021"
+

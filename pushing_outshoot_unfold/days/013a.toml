@@ -1,0 +1,44 @@
+year = 2020
+month = 10
+date = 31
+goto = 14
+
+
+
+story = '''
+Today is [green()]Halloween[normal()]!
+          ___
+       ___)__|_
+  .-*'          '*-,
+ /      /|   |\     \
+;      /_|   |_\     ;
+;   |\           /|  ;
+;   | ''--...--'' |  ;
+ \  ''---.....--''  /
+  ''*-.,_______,.-*'   
+
+# green()
+
+You decide to make a [green()]competition to see who makes the best costume among your friends[normal()]. 
+# normal()
+# pause()
+
+# day13a()
+# pause()
+
+Overall, it was so fun. You were supposed to be eating halloween candy too, but the package that you mom ordered hadn’t arrived yet. 
+
+     ___      .-""-.      ___
+     \  "-.  /      \  .-"  /
+      > -=.\/        \/.=- <
+      > -='/\        /\'=- <
+     /__.-'  \      /  '-.__\
+              '-..-'
+							
+# pause()
+
+[green()]The wait time for packages/mail has been so long because of the pandemic[normal()].
+# pause()
+
+However, your dad saved the day by making homemade caramel popcorn!
+'''

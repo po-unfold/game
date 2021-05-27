@@ -1,0 +1,32 @@
+year = 2020
+month = 5
+date = 25
+goto = 6
+
+
+story = """
+
+# green()
+You get the courage to text your friend today:
+# pause()
+ ________
+|        |
+|        |
+|        |
+|________|
+|___()___|
+You: Hey, what have you been up to????
+Friend: Just watching a lot of Netflix and Hulu
+# normal()
+# day5b()
+# pause()
+
+That was your [green()]first socialization[normal()]with others outside your house [green()]in a while[normal()], and you get a ping of happiness. 
+# pause()
+
+A smile starts to form on your face. 
+# pause()
+
+You realize that [green()]connecting with others can help you with your struggles[normal()]. 
+
+"""

@@ -1,0 +1,11 @@
+year = 2020
+month = 5
+date = 30
+goto = 7
+
+
+story = """
+You've been starting to [green()]feel sluggish[normal()] and a [green()]bit moody lately[normal()], because you haven’t been moving around much. 
+# pause()
+# day6b()
+"""
