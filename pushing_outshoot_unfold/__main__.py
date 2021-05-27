@@ -73,7 +73,7 @@ def main(loop=-1):
 			m = int(day['month'])
 			y = int(day['year'])
 			d = int(day['date'])
-			percent_done = 100 * (day_number / total_days)
+			percent_done = 100 * (day_number / (total_days / 2))
 			ascii.progress(percent_done)
 			ascii.calendar(m, y, replace = [d])
 		except:
@@ -119,7 +119,7 @@ def main(loop=-1):
 		if int(day_number) > 99:
 			a_or_b = ""
 		else:
-			a_or_b = "b"#random.choice("ab")
+			a_or_b = random.choice("ab")
 
 if __name__ == "__main__":
 	i = 0
