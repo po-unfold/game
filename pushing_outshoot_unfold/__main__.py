@@ -12,8 +12,8 @@ from pushing_outshoot_unfold import ascii, banner, sound, Term, interactions
 # ===== Setup =====
 print('!! IMPORTANT !!')
 print('Please resize the window to the size you want it now.')
-# PLAY_MUSIC = input('Type `1` for music or `0` for mute. (music strongly suggested)') == '1'
-PLAY_MUSIC = False
+PLAY_MUSIC = input('Type `1` for music or `0` for mute. (music strongly suggested)') == '1'
+# PLAY_MUSIC = False
 __dev__ = "dev" in sys.argv
 term = Term()
 clear_screen = lambda: os.system('cls' if sys.platform.startswith('win') else 'clear')
