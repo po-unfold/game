@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "2.0.0"
-release-notes = "Re-added the a/b randomness and fixed progress bar."
-latest_release = "1.0.1"
+latest_build = "2.0.1"
+release-notes = "Delivery Day"
+latest_release = "2.0.0"
 
 
 # Resource Setup:

@@ -38,6 +38,10 @@ total_days = len(days.keys())
 
 # ===== Main =====
 def main(loop=-1):
+	try: game(loop=loop)
+	except KeyboardInterrupt: pass
+
+def game(loop=-1):
 	# Setup
 	clear_screen()
 	if PLAY_MUSIC and loop < 1:
@@ -69,6 +73,7 @@ def main(loop=-1):
 
 		# Setup the day:
 		goto = day['goto']
+		print(term.red_on_white(term.center('press ctrl+c to restart the game')))
 		try:
 			m = int(day['month'])
 			y = int(day['year'])
