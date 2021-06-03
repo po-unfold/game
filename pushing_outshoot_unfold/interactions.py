@@ -23,7 +23,7 @@ def ask_sci(amount):
 		sci()
 term = Term()
 goto = lambda day: day
-pause = lambda: time.sleep(0)
+pause = lambda: time.sleep(2.5)
 red = lambda: print(term.red, end='')
 bold = lambda: print(term.bold, end='')
 blue = lambda: print(term.blue, end='')
