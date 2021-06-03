@@ -168,7 +168,7 @@ def day3b():
 def day4a():
 	user_input = input('HOW WILL YOU SOLVE THIS PROBLEM?\nPick 1 or 2:\n\t1.Create a handwritten planner.\n\t2.Create a To-do list on your phone.\n>>> ')
 	if user_input == '1':
-		print('You use a ruler and a pen to make your planner look neat and make it easy to understand.\nYou make a column for each day and list out your homeowrk for the week.\nYou decide to place it right next_ to your computer so it\'s easy to see.\nWoo-hoo!\nYou feel good about yourself.')
+		print('You use a ruler and a pen to make your planner look neat and make it easy to understand.\nYou make a column for each day and list out your homeowrk for the week.\nYou decide to place it right next to your computer so it\'s easy to see.\nWoo-hoo!\nYou feel good about yourself.')
 	if user_input == '2':
 		print('You download a daily weekly planner app on your phone.\nIt has cool designs and includes a monthly planner too.\nYou allow the app to notify you every morning so you could go over your plans for the day.\nThis is really helpful for you, since you have your phone with you most of the day.')
 def day4b():
@@ -195,7 +195,7 @@ def day5b():
 	2. I mean, who hasn't, right?
   >>> ''')
 	if you == '1':
-		print('You regret ending the conversation there, but you can’t come up with anything to say. Maybe next_ time, you think to yourself.')
+		print('You regret ending the conversation there, but you can’t come up with anything to say. Maybe next time, you think to yourself.')
 	else:
 		print('''
 	F: other than that, it's kinda overwhelming with all the homework we have.
@@ -252,7 +252,7 @@ def day6b():
 def day7a():	
 	look = input('''Where do you look first? 
 	1. Behind the bush 
-	2. next_ to the steps of your porch 
+	2. next to the steps of your porch 
 	3. Right side of the garden 
 	>>> ''')
 	if look in ('1', '2'):
@@ -273,7 +273,7 @@ def day7a():
 	pause()
 
 	look = input('''Round 3: 
-	1. next_ to the step of your porch
+	1. next to the step of your porch
 	2. Behind the chicken coop
 	3. Behind the bush
 	>>> ''')
@@ -298,7 +298,7 @@ def day8a():
 	if yearbook == '2':
 		print('When you were still in school, you were part of the soccer team. It was really fun going to the soccer games and practicing with your teammates. You hope that you’ll be able to meet up with your classmates soon after Covid-19 restrictions lighten up.')
 	else:
-		print('You spot your baby pictures, and you burst out laughing. Your dad had selected your baby pictures for you. You didn’t even remember submitting it. In the pictures, you are sitting on the ground next_ to some foam building blocks. One of your hands holding a t.v remote in your mouth, and the other hand holding a foam building block next_ to your ear.')
+		print('You spot your baby pictures, and you burst out laughing. Your dad had selected your baby pictures for you. You didn’t even remember submitting it. In the pictures, you are sitting on the ground next to some foam building blocks. One of your hands holding a t.v remote in your mouth, and the other hand holding a foam building block next to your ear.')
 def day8b():
 	party = input('''What do you want to do for your at home celebration? Pick either 1 or 2.
 	1. Play a board game
@@ -342,7 +342,7 @@ def day9a():
 	2. Strawberry Shortcake
 	>>> ''')
 	if cooking == '1':
-		print('You, your sister, and your parents decide to make red velvet cupcakes with blue frosting to match the 4th of July theme. You decide to work on your frosting piping skills next_ time you make cupcakes. Nevertheless, everything turned out great.') 
+		print('You, your sister, and your parents decide to make red velvet cupcakes with blue frosting to match the 4th of July theme. You decide to work on your frosting piping skills next time you make cupcakes. Nevertheless, everything turned out great.') 
 	if cooking == '2':
 		print('After struggling to cut the strawberries into even slices, you whip up the frosting. Some of it accidentally splattered on your sisters face. Oops! Then you layer each ingredient. First the cake, then whipped cream, then strawberries, then cake, then whipped cream, and finally, strawberries on top in a cool design.')
 	pause()
