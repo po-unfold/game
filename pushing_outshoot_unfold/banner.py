@@ -15,7 +15,7 @@ p = """
 """
 u = o = ""
 s = f"""
-{term.grey('"Remebering the Pandemic"')}
+{term.grey('"Remembering the Pandemic"')}
 
 {term.grey('made by: Cole Wilson, Cassidy Phan, and Harshini Saravanan')}
  

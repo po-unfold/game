@@ -26,7 +26,7 @@ except FileNotFoundError:
 
 options = {
 	"name": "pushing_outshoot_unfold",
-	"version": "2.0.2",
+	"version": "2.1.0",
 	"scripts": [],
 	"entry_points": {'console_scripts': ['pou=pushing_outshoot_unfold.__main__:main']},
 	"author": "Cole, Harshini, Cassidy",

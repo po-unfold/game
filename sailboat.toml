@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "2.0.2"
-release-notes = "Add demo mode"
-latest_release = "2.0.1"
+latest_build = "2.1.0+30fb958.1"
+release-notes = "fix typos"
+latest_release = "2.0.2"
 
 
 # Resource Setup:

@@ -17,7 +17,8 @@ def ask_math(amount):
 		types[type_to_do]()
 def ask_eng(amount):
 	for i in range(amount):
-		english_questions()
+		while english_questions() is False:
+			pass
 def ask_sci(amount):
 	for i in range(amount):
 		sci()
@@ -156,7 +157,7 @@ def day3a():
 	elif outcome == 2:
 		print('After doing your 2 science homeworks first, you realize that you only have 30 minutes\nleft to finish your algebra and english homework.\nYou try to cram everything into the 30 minutes you have left and you turn everything in\njust in time, but your homework quality isn\'t that great.')
 def day3b():
-	feeling = input('''How do you feel about this?Pick either 1 or 2.
+	feeling = input('''How do you feel about this? Pick either 1 or 2.
 	1. Upset
 	2. Saw it coming, and accepting it.
 	>>> ''')
