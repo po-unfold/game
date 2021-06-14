@@ -6,6 +6,16 @@ goto = 5
 story = """
 
 You also [green()]aren’t getting enough time outside of your room and haven’t been able to socialize with others much[normal()]. 
+
+       `'::.
+    _________H ,%%&%,
+   /\     _   \%&&%%&%
+  /  \___/^\___\%&%%&&
+  |  | []   [] |%\Y&%'
+  |  |   .-.   | ||  
+~~@._|@@_|||_@@|~||~~~~~~~~~~~~~
+     `""") )"""`
+		 
 #normal()
 # pause()
 

@@ -7,6 +7,13 @@ goto = 1
 
 story = """
 You hear the staticky sound of the school speakers turning on.
+  
+          /_\\
+          |Q|
+    .-----' '-----.                                  
+   /____[SCHOOL]___\\                                
+    | [] .-.-. [] |                                
+  ..|____|_|_|____|....
 # pause()
 
 Everyone sitting on the edge of their seat, waiting... 
@@ -39,6 +46,10 @@ You realize that any school activities would be canceled.
 # normal()
 
 All sports, games, clubs, and field trips.
+  ______________
+_/_|[][][][][] | - -
+(   School Bus | - -
+=--OO-------OO--=
 # pause()
 # green()
 

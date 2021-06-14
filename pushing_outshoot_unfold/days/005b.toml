@@ -9,12 +9,12 @@ story = """
 # green()
 You get the courage to text your friend today:
 # pause()
- ________
-|        |
-|        |
-|        |
-|________|
-|___()___|
+ _________
+|        ||
+|        ||
+|        ||
+|________||
+|___()___||
 You: Hey, what have you been up to????
 Friend: Just watching a lot of Netflix and Hulu
 # normal()

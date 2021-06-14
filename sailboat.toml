@@ -13,9 +13,9 @@ description = ""
 url = "https://github.com/po-unfold"
 keywords = ""
 license = "none"
-latest_build = "2.1.0+30fb958.1"
-release-notes = "fix typos"
-latest_release = "2.0.2"
+latest_build = "3.0.0"
+release-notes = "fix typo/logic error"
+latest_release = "2.1.0"
 
 
 # Resource Setup:

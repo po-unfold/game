@@ -6,6 +6,32 @@ goto = 7
 
 story = """
 You've been starting to [green()]feel sluggish[normal()] and a [green()]bit moody lately[normal()], because you haven’t been moving around much. 
+
+                             Z             
+                       Z                   
+        .,.,        z           
+      (((((())    z             
+     ((('_  _`) '               
+     ((G   \ |)                 
+    (((`   " ,                  
+     .((\.:~:          .--------------.    
+     __.| `"'.__      | \              |    
+  .~~   `---'   ~.    |  .             :    
+ /                `   |   `-.__________)    
+|             ~       |  :             :   
+|                     |  :  |              
+|    _                |     |   [ ##   :   
+ \    ~~-.            |  ,   oo_______.'   
+  `_   ( \) _____/~~~~ `--___              
+  | ~`-)  ) `-.   `---   ( - a:f -         
+  |   '///`  | `-.                         
+  |     | |  |    `-.                      
+  |     | |  |       `-.                   
+  |     | |\ |                             
+  |     | | \|                             
+   `-.  | |  |                             
+      `-| '
+
 # pause()
 # day6b()
 """

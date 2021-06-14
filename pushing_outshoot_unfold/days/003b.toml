@@ -6,6 +6,19 @@ goto = 4
 
 story = """
 [green()]Tuesday[normal()] morning. [green()]8:15 a.m[normal()]. You just joined your first [green()]zoom meeting[normal()]. 
+ ._________________.
+ | _______________ |
+ | I             I |
+ | I             I |
+ | I             I |
+ | I             I |
+ | I_____________I |
+ !_________________!
+    ._[_______]_.
+.___|___________|___.
+|::: ____           |
+|    ~~~~ [      ]  |
+!___________________!
 # pause()
 
 Your teacher is going over the [green()]school announcements[normal()].You go from talking about grades, to keeping up with homework, to sources to help people reach out to teachers. But then, [green()]something catches your eye[normal()]. Right when your teacher clicks onto the last and final slide, you read the words: 

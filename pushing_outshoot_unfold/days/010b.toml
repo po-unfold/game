@@ -5,6 +5,10 @@ goto = 11
 
 story = """ 
 You decide to play hide and seek with your sister today!
+
+  o  \ o / _ o       __|   \ /    |__      o _ \ o /  o
+ /|\   |    /\  ___\o  \o   |   o/   o/__  /\    |   /|\
+ / \  / \  | \ /)  |   ( \ /o\ / )   |  (\ / |  / \  / \
 # day10b()
 
 """
